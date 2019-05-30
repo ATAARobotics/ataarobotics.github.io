@@ -1,3 +1,4 @@
 ---
 title: FTC
 ---
+~FTC~
