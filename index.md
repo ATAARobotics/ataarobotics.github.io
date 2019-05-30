@@ -17,21 +17,19 @@ title: Under Construction
         </div>
     </div>
 </div>
+<script>
+    window.addEventListener("hashchange", function () {
+    window.scrollTo(window.scrollX, window.scrollY - 76);
+});
+</script>
 <div class="container-fluid" style="height: 10000px">
-    <div id='about' style="padding-top: 80px; margin-top: -80px;">
-        {{about.content | markdownify}}
-    </div>
-    <div id='ata' style="padding-top: 80px; margin-top: -80px;">
-        {{ata.content | markdownify}}
-    </div>
-    <div id="swat" style="padding-top: 80px; margin-top: -80px;">
-        {{swat.content | markdownify}}
-    </div>
-    <div id="ftc" style="padding-top: 80px; margin-top: -80px;">
-        {{ftc.content | markdownify}}
-    </div>
-    <div id="contact" style="padding-top: 80px; margin-top: -80px;">
-        {{contact.content | markdownify}}
-    </div>
+    {% assign ordered = site.sections| sort:"number" %}
+    {%for section in ordered%}
+        <div class="row" id='{{section.link}}' style="background-color: {{section.background}}">
+            <div class="col-12">
+                {{section.content | markdownify}}
+            </div>
+        </div>
+    {%endfor%}
 </div>
 </body>
