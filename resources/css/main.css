@@ -6,6 +6,12 @@
     background-size: 100%;
     background-repeat: no-repeat;
 }
+#aboutCover {
+    background-color: rgba(64, 64, 64, 0.6);
+    padding: 200px;
+    color: #000;
+    text-align: center
+}
 #ata {
     background-color: #A39E9D
 }
