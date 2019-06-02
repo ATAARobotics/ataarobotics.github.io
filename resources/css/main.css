@@ -1,6 +1,12 @@
-#mainNav {
-    background-color: rgba(64, 64, 64, 0.6)
+body {
+    color: #ffffff;
 }
+#mainNav {
+    background-color: rgba(64, 64, 64, 0.6);
+}
+.navbar-nav .nav-item .nav-link {
+    color: #ffffff
+} 
 #about {
     background-image: url('/resources/img/about.jpg');
     background-size: 100%;
@@ -9,15 +15,50 @@
 #aboutCover {
     background-color: rgba(64, 64, 64, 0.6);
     padding: 200px;
-    color: #000;
     text-align: center
 }
 #ata {
-    background-color: #A39E9D
+    background-color: #A39E9D;
+    padding: 50px;
 }
+a.ataButton{
+    padding:0.35em 1.2em;
+    border:0.1em solid #cacaca;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    text-decoration:none;
+    color:#ffffff;
+    text-align:center;
+    transition: all 0.2s;
+}
+a.ataButton:hover{
+    color:#000000;
+    background-color:#cacaca;
+}
+
 #swat {
-    background-color: #E0454F
+    background-color: #E0454F;
+    padding: 50px;
+}
+a.swatButton{
+    padding:0.35em 1.2em;
+    border:0.1em solid #ff6c76;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    text-decoration:none;
+    color:#ffffff;
+    text-align:center;
+    transition: all 0.2s;
+}
+a.swatButton:hover{
+    color:#000000;
+    background-color:#ff6c76;
 }
 #ftc {
-    background-color: #EF6340
+    background-color: #EF6340;
+    padding: 50px;
+}
+#contact {
+    background-color: #70a6ff;
+    padding: 50px;
 }
