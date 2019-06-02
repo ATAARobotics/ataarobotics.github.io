@@ -9,26 +9,25 @@
 	<link href="/resources/css/main.css" rel="stylesheet">
 	<script src="/resources/js/jquery.min.js"></script>
 	<script src="/resources/js/bootstrap.bundle.min.js"></script>
+	<script src="/resources/js/site.js"></script>
 	{{ page.files }}
 	<meta name="description" content="{{ site.description }}">
 	<link href="/favicon.ico" rel="icon" type="image/png">
 </head>
 
-<body>
-	<nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="mainNav">
-		<a class="navbar-brand" href="#"><img src="/resources/img/ataa.png" height="50" alt=""></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-			<ul class="navbar-nav">
-				{% assign ordered = site.sections| sort:"number" %}
-				{%for section in ordered%}
-					<li class="nav-item">
-						<a class="nav-link" href="#{{section.link}}">{{section.title}}</a>
-					</li>
-				{%endfor%}
-			</ul>
-		</div>
-	</nav>
-</body>
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="mainNav">
+	<a class="navbar-brand" href="#"><img src="/resources/img/ataa.png" height="50" alt=""></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+		<ul class="navbar-nav">
+			{% assign ordered = site.sections| sort:"number" %}
+			{%for section in ordered%}
+				<li class="nav-item">
+					<a class="nav-link" href="#{{section.link}}">{{section.title}}</a>
+				</li>
+			{%endfor%}
+		</ul>
+	</div>
+</nav>

@@ -3,4 +3,6 @@ title: Contact
 number: 5
 link: contact
 ---
--Contact-
+<div class="col-12">
+    <p>-Contact-</p>
+</div>

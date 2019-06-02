@@ -2,6 +2,7 @@
 title: ATA
 number: 2
 link: ata
-background: '#A39E9D'
 ---
-_ATA_
+<div class="col-12">
+    <p>ATA</p>
+</div>

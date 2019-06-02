@@ -2,6 +2,7 @@
 title: FTC
 number: 4
 link: ftc
-background: '#EF6340'
 ---
-~FTC~
+<div class="col-12">
+    <p>~FTC~</p>
+</div>
