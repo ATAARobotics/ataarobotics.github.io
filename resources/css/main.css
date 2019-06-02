@@ -58,6 +58,21 @@ a.swatButton:hover{
     background-color: #EF6340;
     padding: 50px;
 }
+a.ftcButton{
+    padding:0.35em 1.2em;
+    border:0.1em solid #FF8A6C;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    text-decoration:none;
+    color:#ffffff;
+    text-align:center;
+    transition: all 0.2s;
+}
+a.ftcButton:hover{
+    color:#000000;
+    background-color:#FF8A6C;
+}
+
 #contact {
     background-color: #70a6ff;
     padding: 50px;
