@@ -4,6 +4,6 @@ window.onload = function () {
     });
     // Uncomment to enable background movement
     // window.addEventListener('scroll', () => {
-    //     document.getElementById('about').style.backgroundPositionY = `${-window.pageYOffset}px`;
+    //     document.getElementById('home').style.backgroundPositionY = `${-window.pageYOffset}px`;
     // }, false)
 }
