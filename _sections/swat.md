@@ -1,5 +1,5 @@
 ---
-title: SWAT
+title: SWAT Bots
 number: 4
 link: swat
 ---
