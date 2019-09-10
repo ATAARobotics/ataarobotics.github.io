@@ -4,7 +4,7 @@ number: 3
 link: ata
 ---
 <div class="col-8">
-    <h1>ATA</h1>
+    <h1>FRC Team 4334 - Alberta Tech Alliance</h1>
 	<p>The Alberta Tech Alliance is FIRST Robotics Competition Team 4334 founded in 2012.</p>
 </div>
 <div class="col-4">

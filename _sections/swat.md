@@ -4,7 +4,7 @@ number: 4
 link: swat
 ---
 <div class="col-8">
-    <h1>SWAT</h1>
+    <h1>FRC Team 5015 - SWAT Bots</h1>
 	<p>INSERT TEXT</p>
 </div>
 <div class="col-4">
