@@ -14,9 +14,76 @@ body {
 }
 #homeCover {
     background-color: rgba(64, 64, 64, 0.6);
-    padding: 200px;
+    padding: 70px;
     text-align: center
 }
+@media (max-width: 1000px){
+    #biglogo{
+        max-width: 50%
+    }
+}
+h1{
+    font-size: 24px
+}
+h3{
+    font-size: 18px
+}
+@media (min-width: 1000px){
+    h1{
+        font-size: 40px
+    }
+    h3{
+        font-size: 26px
+    }
+    #homeCover {
+        padding: 100px;
+    }
+}
+@media (min-width: 1500px){
+    h1{
+        font-size: 50px
+    }
+    h3{
+        font-size: 31px
+    }
+    #homeCover {
+        padding: 200px;
+    }
+}
+@media (min-width: 2000px){
+    h1{
+        font-size: 60px
+    }
+    h3{
+        font-size: 36px
+    }
+    #homeCover {
+        padding: 250px;
+    }
+}
+@media (min-width: 2500px){
+    h1{
+        font-size: 85px
+    }
+    h3{
+        font-size: 47px
+    }
+    #homeCover {
+        padding: 300px;
+    }
+}
+@media (min-width: 3000px){
+    h1{
+        font-size: 100px
+    }
+    h3{
+        font-size: 55px
+    }
+    #homeCover {
+        padding: 350px;
+    }
+}
+
 #atacontent {
     background-color: #A39E9D;
     padding: 50px;
