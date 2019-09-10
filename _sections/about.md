@@ -4,5 +4,6 @@ number: 2
 link: about
 ---
 <div class="col-12">
-    <p>-About-</p>
+    <h1>About</h1>
+	<p>INSERT TEXT</p>
 </div>
