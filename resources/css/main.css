@@ -7,7 +7,7 @@ body {
 .navbar-nav .nav-item .nav-link {
     color: #ffffff
 } 
-#home {
+#homecontent {
     background-image: url('/resources/img/about.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
@@ -84,7 +84,7 @@ h3{
     }
 }
 
-#ata {
+#atacontent {
     background-color: #A39E9D;
     padding: 50px;
 }
@@ -103,7 +103,7 @@ a.ataButton:hover{
     background-color:#cacaca;
 }
 
-#swat {
+#swatcontent {
     background-color: #E0454F;
     padding: 50px;
 }
@@ -121,7 +121,7 @@ a.swatButton:hover{
     color:#000000;
     background-color:#ff6c76;
 }
-#ftc {
+#ftccontent {
     background-color: #EF6340;
     padding: 50px;
 }
@@ -140,11 +140,23 @@ a.ftcButton:hover{
     background-color:#FF8A6C;
 }
 
-#contact {
+#contactcontent {
     background-color: #70a6ff;
     padding: 50px;
 }
-#about {
+#aboutcontent {
     background-color: #78909c;
     padding: 50px;
+}
+
+#sponsorscontent {
+	background-color: #6CAC74;
+	padding: 50px;
+}
+
+.jump:before {
+    content: "";
+    display: block;
+    padding-top: 76px;
+    margin-top: -76px;
 }

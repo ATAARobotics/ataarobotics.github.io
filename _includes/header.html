@@ -24,7 +24,7 @@
 		<ul class="navbar-nav">
 			{% assign ordered = site.sections| sort:"number" %}
 			{%for section in ordered%}
-				<li class="nav-item">
+				<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
 					<a class="nav-link" href="#{{section.link}}">{{section.title}}</a>
 				</li>
 			{%endfor%}
