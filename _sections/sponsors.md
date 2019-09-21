@@ -29,18 +29,18 @@ link: sponsors
 			<a href="https://www.microsoft.com/"><img class="img-fluid" src="/resources/img/sponsors/microsoft.png"></a>
 		</div>
 		<div class="col-4">
-			<a href="https://www.repsol.com/en/index.cshtml"><img class="img-fluid" src="/resources/img/sponsors/repsol.png"></a>
+			<a href="https://www.repsol.com/"><img class="img-fluid" src="/resources/img/sponsors/repsol.png"></a>
 		</div>
 	</div>
 	<div class="row align-items-center" id="sponsor-rows">
 		<div class="col-4">
-			<a href="https://www.telus.com/en/"><img class="img-fluid" src="/resources/img/sponsors/telus.png"></a>
+			<a href="https://www.telus.com/"><img class="img-fluid" src="/resources/img/sponsors/telus.png"></a>
 		</div>
 		<div class="col-4">
 			<a href="https://www.tetranex.com/"><img class="img-fluid" src="/resources/img/sponsors/tetranex.png"></a>
 		</div>
 		<div class="col-4">
-			<a href="https://www.westjet.com/en-ca/index"><img class="img-fluid" src="/resources/img/sponsors/westjet.png"></a>
+			<a href="https://www.westjet.com/"><img class="img-fluid" src="/resources/img/sponsors/westjet.png"></a>
 		</div>
 	</div>
 	<div class="row align-items-center" id="sponsor-rows">

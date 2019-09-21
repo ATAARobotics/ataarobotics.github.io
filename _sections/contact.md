@@ -8,5 +8,5 @@ link: contact
 	<p>If you have any questions for us or are interested in sponsoring us, feel free to contact us.</p>
 </div>
 <div style="text-align: center; margin-top: 15px" class="col-12">
-	<a class="emailButton" href="mailto: info@ataarobotics.ca">Email the Alberta Tech Alliance Association</a>
+	<a class="emailButton" href="mailto: info@ataarobotics.ca">Email ATAA</a>
 </div>
