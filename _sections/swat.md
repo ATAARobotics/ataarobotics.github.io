@@ -1,5 +1,5 @@
 ---
-title: SWAT
+title: SWAT Bots
 number: 4
 link: swat
 ---
@@ -10,6 +10,6 @@ link: swat
 <div class="col-4" style="text-align: center">
     <img class="img-fluid" style="width: 75%" src="/resources/img/swat.png" />
 </div>
-<div style="text-align: center; margin-top: 15px%" class="col-12">
+<div style="text-align: center; margin-top: 15px" class="col-12">
     <a class="swatButton" href="http://5015.ca">Go to 5015.ca</a>
 </div>

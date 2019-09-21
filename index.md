@@ -5,7 +5,9 @@ title: Under Construction
 <div class="container-fluid">
     {% assign ordered = site.sections| sort:"number" %}
     {%for section in ordered%}
-        <div class="row" id="{{section.link}}">
+        <div class="jump" id="{{section.link}}">
+        </div>
+        <div class="row"  id="{{section.link}}content">
             {{section.content}}
         </div>
     {%endfor%}
