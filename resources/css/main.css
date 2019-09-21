@@ -148,12 +148,29 @@ a.ftcButton:hover{
     background-color: #78909c;
     padding: 50px;
 }
+#sponsor-rows {
+	margin-bottom: 15px;
+	text-align: center;
+}
+a.emailButton{
+	padding:0.35em 1.2em;
+    border:0.1em solid #99c0ff;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    text-decoration:none;
+    color:#ffffff;
+    text-align:center;
+    transition: all 0.2s;
+}
+a.emailButton:hover{
+	color: #000000;
+	background-color:#99c0ff;
+}
 
 #sponsorscontent {
 	background-color: #6CAC74;
 	padding: 50px;
 }
-
 .jump:before {
     content: "";
     display: block;
