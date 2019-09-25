@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Under Construction
+title: Home
 ---
-<div class="container">
-    <div class="row">
-        <div class="col-12" style="text-align: center">
-            <img src="/resources/img/ataa.png" class="img-fluid" />
-            <h1>Alberta Tech Alliance Association</h1>
-            <h1>Under Construction</h1>
-            <a href="http://4334.ca">4334.ca</a>
+<div class="container-fluid">
+    {% assign ordered = site.sections| sort:"number" %}
+    {%for section in ordered%}
+        <div class="jump" id="{{section.link}}">
         </div>
-    </div>
+        <div class="row"  id="{{section.link}}content">
+            {{section.content}}
+        </div>
+    {%endfor%}
 </div>

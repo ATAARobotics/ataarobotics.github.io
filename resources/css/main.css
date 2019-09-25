@@ -1,0 +1,183 @@
+body {
+    color: #ffffff;
+}
+#mainNav {
+    background-color: rgba(64, 64, 64, 0.6);
+}
+.navbar-nav .nav-item .nav-link {
+    color: #ffffff
+} 
+#homecontent {
+    background-image: url('/resources/img/about.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#homeCover {
+    background-color: rgba(64, 64, 64, 0.6);
+    padding: 70px;
+    text-align: center
+}
+@media (max-width: 1000px){
+    #biglogo{
+        max-width: 50%
+    }
+}
+h1{
+    font-size: 24px
+}
+h3{
+    font-size: 18px
+}
+@media (min-width: 1000px){
+    h1{
+        font-size: 40px
+    }
+    h3{
+        font-size: 26px
+    }
+    #homeCover {
+        padding: 100px;
+    }
+}
+@media (min-width: 1500px){
+    h1{
+        font-size: 50px
+    }
+    h3{
+        font-size: 31px
+    }
+    #homeCover {
+        padding: 200px;
+    }
+}
+@media (min-width: 2000px){
+    h1{
+        font-size: 60px
+    }
+    h3{
+        font-size: 36px
+    }
+    #homeCover {
+        padding: 250px;
+    }
+}
+@media (min-width: 2500px){
+    h1{
+        font-size: 85px
+    }
+    h3{
+        font-size: 47px
+    }
+    #homeCover {
+        padding: 300px;
+    }
+}
+@media (min-width: 3000px){
+    h1{
+        font-size: 100px
+    }
+    h3{
+        font-size: 55px
+    }
+    #homeCover {
+        padding: 350px;
+    }
+}
+
+#atacontent {
+    background-color: #A39E9D;
+    padding: 50px;
+}
+a.ataButton{
+    padding:0.35em 1.2em;
+    border:0.1em solid #cacaca;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    text-decoration:none;
+    color:#ffffff;
+    text-align:center;
+    transition: all 0.2s;
+}
+a.ataButton:hover{
+    color:#000000;
+    background-color:#cacaca;
+}
+
+#swatcontent {
+    background-color: #E0454F;
+    padding: 50px;
+}
+a.swatButton{
+    padding:0.35em 1.2em;
+    border:0.1em solid #ff6c76;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    text-decoration:none;
+    color:#ffffff;
+    text-align:center;
+    transition: all 0.2s;
+}
+a.swatButton:hover{
+    color:#000000;
+    background-color:#ff6c76;
+}
+#ftccontent {
+    background-color: #EF6340;
+    padding: 50px;
+}
+a.ftcButton{
+    padding:0.35em 1.2em;
+    border:0.1em solid #FF8A6C;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    text-decoration:none;
+    color:#ffffff;
+    text-align:center;
+    transition: all 0.2s;
+}
+a.ftcButton:hover{
+    color:#000000;
+    background-color:#FF8A6C;
+}
+
+#contactcontent {
+    background-color: #70a6ff;
+    padding: 50px;
+}
+#aboutcontent {
+    background-color: #78909c;
+    padding: 50px;
+}
+#sponsor-rows {
+	margin-bottom: 15px;
+	text-align: center;
+}
+a.emailButton{
+	padding:0.35em 1.2em;
+    border:0.1em solid #99c0ff;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    text-decoration:none;
+    color:#ffffff;
+    text-align:center;
+    transition: all 0.2s;
+}
+a.emailButton:hover{
+	color: #000000;
+	background-color:#99c0ff;
+}
+
+#sponsorscontent {
+	background-color: #6CAC74;
+	padding: 50px;
+}
+.jump:before {
+    content: "";
+    display: block;
+    padding-top: 76px;
+    margin-top: -76px;
+}
+
+#sponsor-cols {
+    margin-bottom: 15px;
+}
