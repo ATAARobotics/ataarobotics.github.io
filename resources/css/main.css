@@ -177,3 +177,7 @@ a.emailButton:hover{
     padding-top: 76px;
     margin-top: -76px;
 }
+
+#sponsor-cols {
+    margin-bottom: 15px;
+}
