@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Under Construction
+title: Home
 ---
 <div class="container-fluid">
     {% assign ordered = site.sections| sort:"number" %}
