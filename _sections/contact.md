@@ -17,12 +17,12 @@ link: contact
 	</div>
 	<div class="row" style="margin-top: 20px">
 		<div class="col-12">
-			<p>If you would like to join one of ATAA's teams, fill out the form below and we'll add you to the waitlist.</p>
+			<p>Both the SWAT Bots, ATA, and FTC teams are currently full. To be put on a waiting list for the 2019-2020 or the 2020-2021 season, please complete this form. You will be contacted if space becomes available or in September 2020 for registration for next year's season.</p>
 		</div>
 	</div>
 	<div class="row">
 		<div style="text-align: center; margin-top: 15px" class="col-12">
-			<a class="emailButton" href="https://forms.gle/gAUB9hcX82AGAcWx9">Join ATAA</a>
+			<a class="emailButton" href="https://forms.gle/gAUB9hcX82AGAcWx9">Waitlist Form</a>
 		</div>
 	</div>
 </div>
