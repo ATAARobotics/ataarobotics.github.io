@@ -30,6 +30,12 @@ body {
     #homeCover {
         padding: 75px 10px 5px 10px;
     }
+    #waitlistform {
+        display: none;
+    }
+    #waitlistbutton {
+        display: block;
+    }
 }
 @media screen and (min-width: 400px) {
     #biglogo {
@@ -44,6 +50,12 @@ body {
     #homeCover {
         padding: 75px 15px 0px 15px;
     }
+    #waitlistform {
+        display: none;
+    }
+    #waitlistbutton {
+        display: block;
+    }
 }
 @media screen and (min-width: 500px){
     h1{
@@ -54,6 +66,12 @@ body {
     }
     #homeCover {
         padding: 30px;
+    }
+    #waitlistform {
+        display: block;
+    }
+    #waitlistbutton {
+        display: none;
     }
 }
 @media screen and (min-width: 1000px){
@@ -66,6 +84,12 @@ body {
     #homeCover {
         padding: 100px;
     }
+    #waitlistform {
+        display: block;
+    }
+    #waitlistbutton {
+        display: none;
+    }
 }
 @media screen and (min-width: 1500px){
     h1{
@@ -76,6 +100,12 @@ body {
     }
     #homeCover {
         padding: 200px;
+    }
+    waitlistform {
+        display: block;
+    }
+    #waitlistbutton {
+        display: none;
     }
 }
 @media screen and (min-width: 2000px){
@@ -88,6 +118,12 @@ body {
     #homeCover {
         padding: 250px;
     }
+    waitlistform {
+        display: block;
+    }
+    #waitlistbutton {
+        display: none;
+    }
 }
 @media screen and (min-width: 2500px){
     h1{
@@ -99,6 +135,12 @@ body {
     #homeCover {
         padding: 300px;
     }
+    waitlistform {
+        display: block;
+    }
+    #waitlistbutton {
+        display: none;
+    }
 }
 @media screen and (min-width: 3000px){
     h1{
@@ -109,6 +151,12 @@ body {
     }
     #homeCover {
         padding: 350px;
+    }
+    waitlistform {
+        display: block;
+    }
+    #waitlistbutton {
+        display: none;
     }
 }
 
