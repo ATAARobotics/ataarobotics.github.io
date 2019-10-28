@@ -22,7 +22,7 @@ link: contact
 	</div>
 	<div class="row" id="waitlistform">
 		<div style="text-align: center; margin-top: 15px; margin-left: 5px; margin-right: 5px" class="col-12">
-			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd8-mhv2ub75MLiW2oJhK2cK-gVpVt0MC42PRDtC9tEMKDvPg/viewform?embedded=true" width="640" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd8-mhv2ub75MLiW2oJhK2cK-gVpVt0MC42PRDtC9tEMKDvPg/viewform?embedded=true" width="100%" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 		</div>
 	</div>
 	<div class="row" id="waitlistbutton">
