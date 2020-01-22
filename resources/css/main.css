@@ -257,3 +257,8 @@ a.emailButton:hover{
 #sponsor-cols {
     margin-bottom: 15px;
 }
+
+#firsttechchallenge {
+    background-color: #EF6340;
+    padding: 50px;
+}
