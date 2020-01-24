@@ -10,6 +10,12 @@ link: sponsors
 			<p>ATAA is greatful for the support of our many amazing sponsors. We would not be where we are today without their generous support.</p>
 		</div>
 	</div>
+	<!-- TODO:
+	Add extra sponsors.
+	Check sponsor logos and websites.
+	Swap logo locations to tesselate.
+	Increase logos/row?
+	-->
 	<div class="row align-items-center" id="sponsor-rows">
 		<div class="col-6 col-md-6 col-lg-4" id="sponsor-cols">
 			<a href="https://www.ataarobotics.ca"><img class="img-fluid" src="/resources/img/sponsors/aspire.png"></a>
@@ -45,10 +51,10 @@ link: sponsors
 			<a href="https://www.patchingassociates.com/"><img class="img-fluid" style="width: 75%" src="/resources/img/sponsors/PAAE.png"></a>
 		</div>
 		<div class="col-6 col-md-6 col-lg-4" id="sponsor-cols">
-			<a href="https://www.ataarobotics.ca"><img class="img-fluid" style="width: 75%" src="/resources/img/sponsors/pilemaster.png"></a>
+			<a href="http://www.pilemasterandbridge.com/"><img class="img-fluid" style="width: 75%" src="/resources/img/sponsors/pilemaster.png"></a>
 		</div>
 		<div class="col-6 col-md-6 col-lg-4" id="sponsor-cols">
-			<a href="https://www.ataarobotics.ca"><img class="img-fluid" src="/resources/img/sponsors/Superpoint.png"></a>
+			<a href="https://www.surepoint.ca/"><img class="img-fluid" src="/resources/img/sponsors/Superpoint.png"></a>
 		</div>
 		<div class="col-6 col-md-6 col-lg-4" id="sponsor-cols">
 			<a href="https://www.telus.com/en/"><img class="img-fluid" src="/resources/img/sponsors/telus.png"></a>
@@ -70,6 +76,45 @@ link: sponsors
 		</div>
 		<div class="col-6 col-md-6 col-lg-4" id="sponsor-cols">
 			<a href="https://www.westjet.com/en-ca/index"><img class="img-fluid" src="/resources/img/sponsors/westjet.png"></a>
+		</div>
+		<div class="col-6 col-md-6 col-lg-4" id="sponsor-cols">
+			<a href="https://www.groundswellgroup.ca/"><img class="img-fluid" src="/resources/img/sponsors/groundswell.png"></a>
+		</div>
+		<div class="col-6 col-md-6 col-lg-4" id="sponsor-cols">
+			<a href="https://lead2perform.com/"><img class="img-fluid" src="/resources/img/sponsors/lead2perform.png"></a>
+		</div>
+		<div class="col-6 col-md-6 col-lg-4" id="sponsor-cols">
+			<a href="http://qsine.ca/"><img class="img-fluid" src="/resources/img/sponsors/qsine.png"></a>
+		</div>
+		<div class="col-6 col-md-6 col-lg-4" id="sponsor-cols">
+			<a href="https://www.nofrills.ca/"><img class="img-fluid" src="/resources/img/sponsors/robsnofrills.png"></a>
+		</div>
+		<div class="col-6 col-md-6 col-lg-4" id="sponsor-cols">
+			<a href="https://www.cvs-controls.com/"><img class="img-fluid" src="/resources/img/sponsors/cvscontrols.png"></a>
+		</div>
+		<div class="col-6 col-md-6 col-lg-4" id="sponsor-cols">
+			<a href="https://epfccorp.com/"><img class="img-fluid" src="/resources/img/sponsors/epfc.png"></a>
+		</div>
+		<div class="col-6 col-md-6 col-lg-4" id="sponsor-cols">
+			<a href="https://jci-group.com/"><img class="img-fluid" src="/resources/img/sponsors/jci.png"></a>
+		</div>
+		<div class="col-6 col-md-6 col-lg-4" id="sponsor-cols">
+			<a href="https://www.mrcglobal.com/NorthAmerica/ca"><img class="img-fluid" src="/resources/img/ataa.png"></a>
+		</div>
+		<div class="col-6 col-md-6 col-lg-4" id="sponsor-cols">
+			<a href="https://www.noisesolutions.com/"><img class="img-fluid" src="/resources/img/sponsors/noisesolutions.png"></a>
+		</div>
+		<div class="col-6 col-md-6 col-lg-4" id="sponsor-cols">
+			<a href="https://www.pascoenergy.com/"><img class="img-fluid" src="/resources/img/sponsors/pasco.png"></a>
+		</div>
+		<div class="col-6 col-md-6 col-lg-4" id="sponsor-cols">
+			<a href="https://www.rheaumeengineering.com/"><img class="img-fluid" src="/resources/img/sponsors/rheaume.png"></a>
+		</div>
+		<div class="col-6 col-md-6 col-lg-4" id="sponsor-cols">
+			<a href="https://www.shingdigital.com/"><img class="img-fluid" src="/resources/img/sponsors/shing.png"></a>
+		</div>
+		<div class="col-6 col-md-6 col-lg-4" id="sponsor-cols">
+			<a href="https://www.xcelautomation.com/"><img class="img-fluid" src="/resources/img/sponsors/xcelautomation.png"></a>
 		</div>
 	</div>
 </div>
