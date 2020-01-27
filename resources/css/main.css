@@ -262,3 +262,9 @@ a.emailButton:hover{
     background-color: #EF6340;
     padding: 50px;
 }
+
+#firsttechchallengecover {
+    background-color: #EF6340;
+    text-align: center;
+    padding: 70px;
+}
