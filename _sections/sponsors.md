@@ -114,7 +114,7 @@ link: sponsors
 			<h1 style="color: white">Northland Country Medical</h1>
 		</div>
 		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
-			<a href="https://www.cvs-controls.com/"><h1 style="color: white">CVS Controls</h1></a>
+			<a href="https://www.cvs-controls.com/"><h1 style="color: white; .hover: white" >CVS Controls</h1></a>
 		</div>
 		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
 			<a href="https://www.mrcglobal.com/NorthAmerica/ca"><h1 style="color: white">MRC Global</h1></a>

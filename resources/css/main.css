@@ -273,3 +273,7 @@ a.aboutButton:hover{
     color:#000000;
     background-color:#ADC3CE;
 }
+
+a:hover{
+    color: #ffffff;
+}
