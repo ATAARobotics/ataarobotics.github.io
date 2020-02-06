@@ -10,12 +10,6 @@ link: sponsors
 			<p>ATAA is greatful for the support of our many amazing sponsors. We would not be where we are today without their generous support.</p>
 		</div>
 	</div>
-	<!-- TODO:
-	Add extra sponsors.
-	Check sponsor logos and websites.
-	Swap logo locations to tesselate.
-	Increase logos/row?
-	-->
 	<div class="row align-items-center" id="sponsor-rows">
 		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
 			<a href="https://www.aspireenergy.ca"><img class="img-fluid" src="/resources/img/sponsors/aspire.png"></a>
@@ -48,7 +42,7 @@ link: sponsors
 			<a href="https://www.kaidakenergy.com/"><img class="img-fluid" src="/resources/img/sponsors/Kaidak.png"></a>
 		</div>
 		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
-			<a href="https://www.patchingassociates.com/"><img class="img-fluid" style="width: 75%" src="/resources/img/sponsors/PAAE.png"></a>
+			<a href="https://www.patchingassociates.com/"><img class="img-fluid" style="width: 75%" src="/resources/img/sponsors/paae.png"></a>
 		</div>
 		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
 			<a href="http://www.pilemasterandbridge.com/"><img class="img-fluid" style="width: 75%" src="/resources/img/sponsors/pilemaster.png"></a>
