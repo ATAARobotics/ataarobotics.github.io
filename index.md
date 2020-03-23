@@ -2,6 +2,7 @@
 layout: default
 title: Home
 ---
+<!-- Renders each file in the sections folders in order, assigning each a link-->
 <div class="container-fluid">
     {% assign ordered = site.sections| sort:"number" %}
     {%for section in ordered%}

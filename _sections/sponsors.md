@@ -1,13 +1,13 @@
 ---
 title: Sponsors
-number: 6
+number: 7
 link: sponsors
 ---
 <div class="container" style="padding: 0px">
 	<div class="row">
 		<div class="col-12">
 			<h1>Sponsors</h1>
-			<p>ATAA is greatful for the support of our many amazing sponsors. We would not be where we are today without their generous support.</p>
+			<p>ATAA is grateful for the support of our many amazing sponsors. We would not be where we are today without their generous support.</p>
 		</div>
 	</div>
 	<div class="row align-items-center" id="sponsor-rows">
