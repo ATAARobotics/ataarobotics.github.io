@@ -1,6 +1,6 @@
 ---
 title: FTC
-number: 5
+number: 6
 link: ftc
 ---
 <div class="col-md-8">
@@ -11,5 +11,5 @@ link: ftc
     <img class="img-fluid" style="width: 75%" src="/resources/img/ftc.png">
 </div>
 <div style="text-align: center; margin-top: 15px" class="col-12">
-    <a class="ftcButton" href="https://www.firstinspires.org/robotics/ftc">Learn More About FTC</a>
+    <a class="ftcButton" href="/firsttechchallenge">Learn About FTC</a>
 </div>

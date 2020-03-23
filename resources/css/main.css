@@ -17,6 +17,12 @@ body {
     padding: 70px;
     text-align: center
 }
+/* 
+CSS Media Queries make the website adjust by device size (Responsive).
+Max width applies to devices smaller, min width applies to devices larger.
+Applies largest matching setting to the device.
+*/
+
 @media screen and (max-width: 400px) {
     #biglogo {
         max-width: 30%
@@ -101,7 +107,7 @@ body {
     #homeCover {
         padding: 200px;
     }
-    waitlistform {
+    #waitlistform {
         display: block;
     }
     #waitlistbutton {
@@ -135,7 +141,7 @@ body {
     #homeCover {
         padding: 300px;
     }
-    waitlistform {
+    #waitlistform {
         display: block;
     }
     #waitlistbutton {
@@ -152,12 +158,17 @@ body {
     #homeCover {
         padding: 350px;
     }
-    waitlistform {
+    #waitlistform {
         display: block;
     }
     #waitlistbutton {
         display: none;
     }
+}
+
+#updatecontent {
+    background-color: #918B76;
+    padding: 50px;
 }
 
 #atacontent {
@@ -258,6 +269,15 @@ a.emailButton:hover{
     margin-bottom: 15px;
 }
 
+#firsttechchallenge {
+    background-color: #EF6340;
+    padding: 50px;
+}
+
+#firsttechchallengecover {
+    background-color: #EF6340;
+    text-align: center;
+    padding: 70px;
 a.aboutButton{
     padding:0.35em 1.2em;
     border:0.1em solid #ADC3CE;
