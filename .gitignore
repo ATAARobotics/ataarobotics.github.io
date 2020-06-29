@@ -1,6 +1,7 @@
 Gemfile.lock
 Gemfile
 _site/
+.jekyll-cache/
 
 
 # General
