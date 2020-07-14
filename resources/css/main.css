@@ -42,6 +42,9 @@ Applies largest matching setting to the device.
     #waitlistbutton {
         display: block;
     }
+    #amahome {
+        height: 200px
+    }
 }
 @media screen and (min-width: 400px) {
     #biglogo {
@@ -62,6 +65,9 @@ Applies largest matching setting to the device.
     #waitlistbutton {
         display: block;
     }
+    #amahome {
+        height: 225px
+    }
 }
 @media screen and (min-width: 500px){
     h1{
@@ -79,6 +85,9 @@ Applies largest matching setting to the device.
     #waitlistbutton {
         display: none;
     }
+    #amahome {
+        height: 350px
+    }
 }
 @media screen and (min-width: 1000px){
     h1{
@@ -95,6 +104,9 @@ Applies largest matching setting to the device.
     }
     #waitlistbutton {
         display: none;
+    }
+    #amahome {
+        height: 459px
     }
 }
 @media screen and (min-width: 1500px){
@@ -124,7 +136,7 @@ Applies largest matching setting to the device.
     #homeCover {
         padding: 250px;
     }
-    waitlistform {
+    #waitlistform {
         display: block;
     }
     #waitlistbutton {
@@ -297,4 +309,43 @@ a.aboutButton:hover{
 
 a:hover{
     color: #ffffff;
+}
+
+#amacontent{
+    background-color: #918B76;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+
+#amahome {
+    background-image: url('/resources/img/ama/ama.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 459px;
+}
+
+a.amaButton{
+    padding:0.35em 1.2em;
+    border:0.1em solid #b3ac97;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    text-decoration:none;
+    color:#ffffff;
+    text-align:center;
+    transition: all 0.2s;
+}
+a.amaButton:hover{
+    color:#000000;
+    background-color:#b3ac97;
+}
+
+.card {
+    background-color: #f0f0f0;
+    /* Has no border edge */
+    border-radius: 0;
+    /* Calculates the height */
+    height: calc(100% - 24px);
 }
