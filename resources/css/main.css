@@ -166,16 +166,25 @@ Applies largest matching setting to the device.
     }
 }
 
+#supportcontent {
+    background-color: #c8bf2b;
+    padding: 50px;
+}
+
+#supportcontent a {
+    color: dimgray;
+}
+
 #updatecontent {
     background-color: #918B76;
     padding: 50px;
 }
 
-#atacontent {
+#forgecontent {
     background-color: #A39E9D;
     padding: 50px;
 }
-a.ataButton{
+a.forgeButton{
     padding:0.35em 1.2em;
     border:0.1em solid #cacaca;
     margin:0 0.3em 0.3em 0;
@@ -185,16 +194,16 @@ a.ataButton{
     text-align:center;
     transition: all 0.2s;
 }
-a.ataButton:hover{
+a.forgeButton:hover{
     color:#000000;
     background-color:#cacaca;
 }
 
-#swatcontent {
+#fllcontent {
     background-color: #E0454F;
     padding: 50px;
 }
-a.swatButton{
+a.fllButton{
     padding:0.35em 1.2em;
     border:0.1em solid #ff6c76;
     margin:0 0.3em 0.3em 0;
@@ -204,7 +213,7 @@ a.swatButton{
     text-align:center;
     transition: all 0.2s;
 }
-a.swatButton:hover{
+a.fllButton:hover{
     color:#000000;
     background-color:#ff6c76;
 }

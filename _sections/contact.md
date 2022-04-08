@@ -17,7 +17,7 @@ link: contact
 	</div>
 	<div class="row" style="margin-top: 20px">
 		<div class="col-12">
-			<p>Both the SWAT Bots, ATA, and FTC teams are currently full. To be put on a waiting list for the 2019-2020 or the 2020-2021 season, please complete this form. You will be contacted if space becomes available or in September 2020 for registration for next year's season.</p>
+			<p>We are always looking for new students to join our teams. Please fill out the form below or email us if you are interested.</p>
 		</div>
 	</div>
 	<div class="row" id="waitlistform">
