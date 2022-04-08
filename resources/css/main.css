@@ -166,6 +166,15 @@ Applies largest matching setting to the device.
     }
 }
 
+#supportcontent {
+    background-color: #c8bf2b;
+    padding: 50px;
+}
+
+#supportcontent a {
+    color: dimgray;
+}
+
 #updatecontent {
     background-color: #918B76;
     padding: 50px;
