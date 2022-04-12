@@ -12,13 +12,50 @@ link: sponsors
 	</div>
 	<div class="row align-items-center" id="sponsor-rows">
 		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
+			<a href="https://embarktrucks.com/"><img class="img-fluid" src="/resources/img/sponsors/embark.png"></a>
+		</div>
+		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
+			<a href="https://www.telus.com/en/"><img class="img-fluid" src="/resources/img/sponsors/telus.png"></a>
+		</div>
+		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
+			<a href="https://analyticengineering.ca/"><img class="img-fluid" src="/resources/img/sponsors/analytic-engineering.png"></a>
+		</div>
+		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
+			<h1 style="color: white">Brandt Consulting</h1>
+		</div>
+		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
+			<a href="https://brentwoodprinting.com/"><img class="img-fluid" src="/resources/img/sponsors/brentwood.png"></a>
+		</div>
+		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
+			<a href="https://www.hatch.com/"><img class="img-fluid" src="/resources/img/sponsors/hatch.png"></a>
+		</div>
+		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
+			<a href="https://kofc.ab.ca/"><img class="img-fluid" src="/resources/img/sponsors/knights-of-columbus.png"></a>
+		</div>
+		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
+			<a href="https://laserequation.com/"><img class="img-fluid" src="/resources/img/sponsors/laserequation.png"></a>
+		</div>
+		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
+			<a href="https://lc.dev/"><img class="img-fluid" src="/resources/img/sponsors/launchcode.svg"></a>
+		</div>
+		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
+			<a href="https://www.peloton.com/"><img class="img-fluid" src="/resources/img/sponsors/peloton.png"></a>
+		</div>
+		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
+			<h1 style="color: white">Servall Analytics</h1>
+		</div>
+		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
+			<a href="https://www.shingdigital.com/"><img class="img-fluid" src="/resources/img/sponsors/shing.png"></a>
+		</div>
+		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
+			<a href="https://www.tetranex.com/"><img class="img-fluid" src="/resources/img/sponsors/tetranex.png"></a>
+		</div>
+		<!-- Old sponsors...  remove? -->
+		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
 			<a href="https://www.aspireenergy.ca"><img class="img-fluid" src="/resources/img/sponsors/aspire.png"></a>
 		</div>
 		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
 			<a href="https://www.bhge.com/"><img class="img-fluid" src="/resources/img/sponsors/bakerhughes.png"></a>
-		</div>
-		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
-			<a href="https://brentwoodprinting.com/"><img class="img-fluid" src="/resources/img/sponsors/brentwood.png"></a>
 		</div>
 		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
 			<a href="https://osyrentals.com/"><img class="img-fluid" src="/resources/img/sponsors/OSYRentals.png"></a>
@@ -28,15 +65,6 @@ link: sponsors
 		</div>
 		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
 			<a href="https://www.finning.com/"><img class="img-fluid" src="/resources/img/sponsors/finning.png"></a>
-		</div>
-		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
-			<a href="https://www.hatch.com/"><img class="img-fluid" src="/resources/img/sponsors/hatch.png"></a>
-		</div>
-		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
-			<a href="https://laserequation.com/"><img class="img-fluid" src="/resources/img/sponsors/laserequation.png"></a>
-		</div>
-		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
-			<a href="https://www.telus.com/en/"><img class="img-fluid" src="/resources/img/sponsors/telus.png"></a>
 		</div>
 		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
 			<a href="https://www.kaidakenergy.com/"><img class="img-fluid" src="/resources/img/sponsors/Kaidak.png"></a>
@@ -52,9 +80,6 @@ link: sponsors
 		</div>
 		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
 			<a href="https://www.surepoint.ca/"><img class="img-fluid" src="/resources/img/sponsors/Superpoint.png"></a>
-		</div>
-		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
-			<a href="https://www.tetranex.com/"><img class="img-fluid" src="/resources/img/sponsors/tetranex.png"></a>
 		</div>
 		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
 			<a href="https://www.viseenergy.ca/"><img class="img-fluid" src="/resources/img/sponsors/vise.png"></a>
@@ -88,9 +113,6 @@ link: sponsors
 		</div>
 		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
 			<a href="http://qsine.ca/"><img class="img-fluid" src="/resources/img/sponsors/qsine.png"></a>
-		</div>
-		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
-			<a href="https://www.shingdigital.com/"><img class="img-fluid" src="/resources/img/sponsors/shing.png"></a>
 		</div>
 		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
 			<a href="https://jci-group.com/"><img class="img-fluid" src="/resources/img/sponsors/jci.png"></a>
