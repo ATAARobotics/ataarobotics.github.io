@@ -21,7 +21,7 @@ link: sponsors
 			<a href="https://analyticengineering.ca/"><img class="img-fluid" src="/resources/img/sponsors/analytic-engineering.png"></a>
 		</div>
 		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
-			<h1 style="color: white">Brandt Consulting</h1>
+			<h1>Brandt Consulting</h1>
 		</div>
 		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
 			<a href="https://brentwoodprinting.com/"><img class="img-fluid" src="/resources/img/sponsors/brentwood.png"></a>
@@ -30,7 +30,7 @@ link: sponsors
 			<a href="https://www.hatch.com/"><img class="img-fluid" src="/resources/img/sponsors/hatch.png"></a>
 		</div>
 		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
-			<a href="https://kofc.ab.ca/"><img class="img-fluid" src="/resources/img/sponsors/knights-of-columbus.png"></a>
+			<a href="https://kofc.ab.ca/"><img class="img-fluid" style="width: 70%" src="/resources/img/sponsors/knights-of-columbus.png"></a>
 		</div>
 		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
 			<a href="https://laserequation.com/"><img class="img-fluid" src="/resources/img/sponsors/laserequation.png"></a>
@@ -42,7 +42,7 @@ link: sponsors
 			<a href="https://www.peloton.com/"><img class="img-fluid" src="/resources/img/sponsors/peloton.png"></a>
 		</div>
 		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
-			<h1 style="color: white">Servall Analytics</h1>
+			<h1>Servall Analytics</h1>
 		</div>
 		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
 			<a href="https://www.shingdigital.com/"><img class="img-fluid" src="/resources/img/sponsors/shing.png"></a>
@@ -124,19 +124,19 @@ link: sponsors
 			<a href="https://www.rheaumeengineering.com/"><img class="img-fluid" src="/resources/img/sponsors/rheaume.png"></a>
 		</div>
 		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
-			<a href="https://www.noisesolutions.com/"><h1 style="color: white">Noise Solution & CEGEN</h1></a>
+			<a href="https://www.noisesolutions.com/"><h1>Noise Solution & CEGEN</h1></a>
 		</div>
 		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
-			<h1 style="color: white">Northland Country Medical</h1>
+			<h1>Northland Country Medical</h1>
 		</div>
 		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
-			<a href="https://www.cvs-controls.com/"><h1 style="color: white; .hover: white" >CVS Controls</h1></a>
+			<a href="https://www.cvs-controls.com/"><h1>CVS Controls</h1></a>
 		</div>
 		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
-			<a href="https://www.mrcglobal.com/NorthAmerica/ca"><h1 style="color: white">MRC Global</h1></a>
+			<a href="https://www.mrcglobal.com/NorthAmerica/ca"><h1>MRC Global</h1></a>
 		</div>
 		<div class="col-4 col-md-4 col-lg-3" id="sponsor-cols">
-			<h1 style="color: white">Margin Inspection</h1>
+			<h1>Margin Inspection</h1>
 		</div>
 	</div>
 </div>

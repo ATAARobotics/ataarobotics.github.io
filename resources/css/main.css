@@ -6,7 +6,7 @@ body {
 }
 .navbar-nav .nav-item .nav-link {
     color: #ffffff
-} 
+}
 #homecontent {
     background-image: url('/resources/img/about.jpg');
     background-size: 100%;
@@ -17,7 +17,7 @@ body {
     padding: 70px;
     text-align: center
 }
-/* 
+/*
 CSS Media Queries make the website adjust by device size (Responsive).
 Max width applies to devices smaller, min width applies to devices larger.
 Applies largest matching setting to the device.
@@ -245,8 +245,12 @@ a.ftcButton:hover{
     padding: 50px;
 }
 #sponsor-rows {
-	margin-bottom: 15px;
-	text-align: center;
+    margin-bottom: 15px;
+    text-align: center;
+}
+#sponsor-cols h1 {
+    font-size: 40px;
+    color: white;
 }
 a.emailButton{
 	padding:0.35em 1.2em;
