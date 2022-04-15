@@ -36,13 +36,10 @@ link: sponsors
 			<a href="https://analyticengineering.ca/"><img class="img-fluid" src="/resources/img/sponsors/analytic-engineering.png"></a>
 		</div>
 		<div class="col-3 col-md-3 col-lg-3" id="sponsor-cols">
-			<h1>Brandt Consulting</h1>
+			<img class="img-fluid" src="/resources/img/sponsors/brandt.svg">
 		</div>
 		<div class="col-3 col-md-3 col-lg-3" id="sponsor-cols">
 			<a href="https://laserequation.com/"><img class="img-fluid" src="/resources/img/sponsors/laserequation.png"></a>
-		</div>
-		<div class="col-3 col-md-3 col-lg-3" id="sponsor-cols">
-			<h1>Servall Analytics</h1>
 		</div>
 		<div class="col-3 col-md-3 col-lg-3" id="sponsor-cols">
 			<a href="https://brentwoodprinting.com/"><img class="img-fluid" src="/resources/img/sponsors/brentwood.png"></a>
