@@ -12,6 +12,6 @@ link: fll
 <div class="col-md-4" style="justify-content: center; display: flex; align-items: center;">
     <img class="img-fluid" style="width: 80%" src="/resources/img/fll.png">
 </div>
-<div style="text-align: center; margin-top: 1px" class="col-12">
+<div style="text-align: center; margin-top: 15px" class="col-12">
     <a class="fllButton" href="https://www.firstinspires.org/robotics/fll">Learn More About FLL</a>
 </div>
