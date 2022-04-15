@@ -7,7 +7,7 @@ link: contact
 	<div class="row">
 		<div class="col-12">
     		<h1>Contact</h1>
-			<p>If you have any questions for us or are interested in sponsoring us, feel free to 	contact us.</p>
+			<p>If you have any questions for us or are interested in sponsoring us, feel free to contact us.</p>
 		</div>
 	</div>
 	<div class="row">
