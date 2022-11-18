@@ -39,13 +39,22 @@ link: sponsors
 			<img class="img-fluid" src="/resources/img/sponsors/brandt.svg">
 		</div>
 		<div class="col-3 col-md-3 col-lg-3" id="sponsor-cols">
-			<a href="https://laserequation.com/"><img class="img-fluid" src="/resources/img/sponsors/laserequation.png"></a>
+			<a href="https://www.surerus-murphy.com/"><img class="img-fluid" src="/resources/img/sponsors/surerus-murphy.png"></a>
 		</div>
 		<div class="col-3 col-md-3 col-lg-3" id="sponsor-cols">
 			<a href="https://brentwoodprinting.com/"><img class="img-fluid" src="/resources/img/sponsors/brentwood.png"></a>
 		</div>
 		<div class="col-3 col-md-3 col-lg-3" id="sponsor-cols">
-			<a href="https://kofc.ab.ca/"><img class="img-fluid" style="width: 70%" src="/resources/img/sponsors/knights-of-columbus.png"></a>
+			<a href="https://www.valentinevolvo.com/"><img class="img-fluid" src="/resources/img/sponsors/valentine-volvo.png"></a>
+		</div>
+		<div class="col-3 col-md-3 col-lg-3" id="sponsor-cols">
+			<a href="https://www.signatureseismic.com/"><img class="img-fluid" src="/resources/img/sponsors/signature-seismic.png"></a>
+		</div>
+		<div class="col-3 col-md-3 col-lg-3" id="sponsor-cols">
+			<a href="https://www.mrlsolutions.com/"><img class="img-fluid" src="/resources/img/sponsors/mrl.png"></a>
+		</div>
+		<div class="col-3 col-md-3 col-lg-3" id="sponsor-cols">
+			<a href="#"><img class="img-fluid" src="/resources/img/sponsors/mirai.png"></a>
 		</div>
 	</div>
 </div>
