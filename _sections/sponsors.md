@@ -47,13 +47,13 @@ link: sponsors
 		<div class="col-3 col-md-3 col-lg-3" id="sponsor-cols">
 			<a href="https://www.valentinevolvo.com/"><img class="img-fluid" src="/resources/img/sponsors/valentine-volvo.png"></a>
 		</div>
-		<div class="col-3 col-md-3 col-lg-3" id="sponsor-cols">
+		<div class="col-4 col-md-4 col-lg-4" id="sponsor-cols">
 			<a href="https://www.signatureseismic.com/"><img class="img-fluid" src="/resources/img/sponsors/signature-seismic.jpg"></a>
 		</div>
-		<div class="col-3 col-md-3 col-lg-3" id="sponsor-cols">
+		<div class="col-4 col-md-4 col-lg-4" id="sponsor-cols">
 			<a href="https://www.mrlsolutions.com/"><img class="img-fluid" src="/resources/img/sponsors/mrl.png"></a>
 		</div>
-		<div class="col-3 col-md-3 col-lg-3" id="sponsor-cols">
+		<div class="col-4 col-md-4 col-lg-4" id="sponsor-cols">
 			<a href="#"><img class="img-fluid" src="/resources/img/sponsors/mirai.jpg"></a>
 		</div>
 	</div>
