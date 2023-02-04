@@ -36,6 +36,9 @@ Applies largest matching setting to the device.
     #homeCover {
         padding: 75px 10px 5px 10px;
     }
+    #newsletter {
+        display: none;
+    }
     #waitlistform {
         display: none;
     }
@@ -59,6 +62,9 @@ Applies largest matching setting to the device.
     #homeCover {
         padding: 75px 15px 0px 15px;
     }
+    #newsletter {
+        display: none;
+    }
     #waitlistform {
         display: none;
     }
@@ -78,6 +84,9 @@ Applies largest matching setting to the device.
     }
     #homeCover {
         padding: 30px;
+    }
+    #newsletter {
+        display: block;
     }
     #waitlistform {
         display: block;
@@ -99,6 +108,9 @@ Applies largest matching setting to the device.
     #homeCover {
         padding: 100px;
     }
+    #newsletter {
+        display: block;
+    }
     #waitlistform {
         display: block;
     }
@@ -119,6 +131,9 @@ Applies largest matching setting to the device.
     #homeCover {
         padding: 200px;
     }
+    #newsletter {
+        display: block;
+    }
     #waitlistform {
         display: block;
     }
@@ -136,7 +151,10 @@ Applies largest matching setting to the device.
     #homeCover {
         padding: 250px;
     }
-    waitlistform {
+    #newsletter {
+        display: block;
+    }
+    #waitlistform {
         display: block;
     }
     #waitlistbutton {
@@ -152,6 +170,9 @@ Applies largest matching setting to the device.
     }
     #homeCover {
         padding: 300px;
+    }
+    #newsletter {
+        display: block;
     }
     #waitlistform {
         display: block;
@@ -169,6 +190,9 @@ Applies largest matching setting to the device.
     }
     #homeCover {
         padding: 350px;
+    }
+    #newsletter {
+        display: block;
     }
     #waitlistform {
         display: block;
@@ -279,7 +303,7 @@ a.emailButton:hover{
 }
 
 #sponsorscontent {
-	background-color: #6CAC74;
+	background-color: #ffffff;
 	padding: 50px;
 }
 .jump:before {
