@@ -235,23 +235,6 @@ a.forgeButton:hover{
     background-color:#cacaca;
 }
 
-.raffleButton{
-    padding:0.35em 1.2em;
-    border:0.1em solid rgb(189, 0, 0);
-    border-radius:0.12em;
-    text-decoration:none;
-    color:#ffffff;
-    text-align:center;
-    transition: all 0.2s;
-    background-color: red;
-}
-.raffleButton:hover{
-    color:#000000;
-    background-color:#cacaca;
-    border-color: #cacaca;
-}
-
-
 #fllcontent {
     background-color: #E0454F;
     padding: 50px;
