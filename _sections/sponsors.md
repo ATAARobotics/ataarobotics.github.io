@@ -6,7 +6,7 @@ link: sponsors
 <div class="container" style="padding: 0px">
 	<div class="row">
 		<div class="col-12">
-			<h1>Sponsors</h1>
+			<h1 style="color: black">Sponsors</h1>
 			<p>ATAA is grateful for the support of our many amazing sponsors. We would not be where we are today without their generous support.</p>
 		</div>
 	</div>
@@ -55,6 +55,9 @@ link: sponsors
 		</div>
 		<div class="col-4 col-md-4 col-lg-4" id="sponsor-cols">
 			<a href="#"><img class="img-fluid" src="/resources/img/sponsors/mirai.jpg"></a>
+		</div>
+		<div class="col-4 col-md-4 col-lg-4" id="sponsor-cols">
+			<a href="#"><img class="img-fluid" src="/resources/img/sponsors/emerson.png"></a>
 		</div>
 	</div>
 </div>

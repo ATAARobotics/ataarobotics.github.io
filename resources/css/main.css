@@ -283,6 +283,7 @@ a.ftcButton:hover{
 #sponsor-rows {
     margin-bottom: 15px;
     text-align: center;
+    justify-content: center;
 }
 #sponsor-cols h1 {
     color: white;
