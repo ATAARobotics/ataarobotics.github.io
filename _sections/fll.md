@@ -5,7 +5,7 @@ link: fll
 ---
 <div class="col-md-8">
     <h1>FLL</h1>
-	<p>The Alberta Tech Alliance Association also operates a <i>FIRST</i> Lego League team for younger students in elementary school. Played using LEGO EV3 and Mindstorms robot kits on a table-top playing field FLL is the most accessable of the <i>FIRST</i> robotics programs.
+	<p>The Alberta Tech Alliance Association also operates 2 <i>FIRST</i> Lego League teams for younger students in elementary school. The teams are Fire Breathing Rubber Duckies #13487 and BOB Bots #58560. Played using LEGO spike prime robot kits on a table-top playing field, FLL is the most accessable of the <i>FIRST</i> robotics programs.
 
     </p>
 </div>
