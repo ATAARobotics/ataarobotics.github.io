@@ -59,5 +59,8 @@ link: sponsors
 		<div class="col-4 col-md-4 col-lg-4" id="sponsor-cols">
 			<a href="#"><img class="img-fluid" src="/resources/img/sponsors/emerson.png"></a>
 		</div>
+		<div class="col-4 col-md-4 col-lg-4" id="sponsor-cols">
+			<a href="#"><img class="img-fluid" src="/resources/img/sponsors/tfd.jpg"></a>
+		</div>
 	</div>
 </div>
