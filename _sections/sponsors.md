@@ -11,9 +11,6 @@ link: sponsors
 		</div>
 	</div>
 	<div class="row align-items-center" id="sponsor-rows">
-		<div class="col-12 col-md-12 col-lg-12" id="sponsor-cols">
-			<a href="https://embarktrucks.com/"><img class="img-fluid" style="width: 50%" src="/resources/img/sponsors/embark.svg"></a>
-		</div>
 		<div class="col-4 col-md-4 col-lg-4" id="sponsor-cols">
 			<a href="https://www.telus.com/en/"><img class="img-fluid" src="/resources/img/sponsors/telus.png"></a>
 		</div>
@@ -54,13 +51,13 @@ link: sponsors
 			<a href="https://www.mrlsolutions.com/"><img class="img-fluid" src="/resources/img/sponsors/mrl.png"></a>
 		</div>
 		<div class="col-4 col-md-4 col-lg-4" id="sponsor-cols">
-			<a href="#"><img class="img-fluid" src="/resources/img/sponsors/mirai.jpg"></a>
-		</div>
-		<div class="col-4 col-md-4 col-lg-4" id="sponsor-cols">
 			<a href="#"><img class="img-fluid" src="/resources/img/sponsors/emerson.png"></a>
 		</div>
 		<div class="col-4 col-md-4 col-lg-4" id="sponsor-cols">
 			<a href="#"><img class="img-fluid" src="/resources/img/sponsors/tfd.jpg"></a>
+		</div>
+		<div class="col-4 col-md-4 col-lg-4" id="sponsor-cols">
+			<a href="#"><img class="img-fluid" src="/resources/img/sponsors/pandell.jpg"></a>
 		</div>
 	</div>
 </div>
