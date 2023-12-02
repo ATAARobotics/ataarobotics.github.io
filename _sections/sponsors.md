@@ -30,9 +30,6 @@ link: sponsors
 			<a href="https://lc.dev/"><img class="img-fluid" src="/resources/img/sponsors/launchcode.svg"></a>
 		</div>
 		<div class="col-3 col-md-3 col-lg-3" id="sponsor-cols">
-			<a href="https://analyticengineering.ca/"><img class="img-fluid" src="/resources/img/sponsors/analytic-engineering.png"></a>
-		</div>
-		<div class="col-3 col-md-3 col-lg-3" id="sponsor-cols">
 			<img class="img-fluid" src="/resources/img/sponsors/brandt.svg">
 		</div>
 		<div class="col-3 col-md-3 col-lg-3" id="sponsor-cols">
@@ -51,13 +48,13 @@ link: sponsors
 			<a href="https://www.mrlsolutions.com/"><img class="img-fluid" src="/resources/img/sponsors/mrl.png"></a>
 		</div>
 		<div class="col-4 col-md-4 col-lg-4" id="sponsor-cols">
-			<a href="#"><img class="img-fluid" src="/resources/img/sponsors/emerson.png"></a>
+			<a href="https://www.emerson.com/en-us/global"><img class="img-fluid" src="/resources/img/sponsors/emerson.png"></a>
 		</div>
 		<div class="col-4 col-md-4 col-lg-4" id="sponsor-cols">
-			<a href="#"><img class="img-fluid" src="/resources/img/sponsors/tfd.jpg"></a>
+			<a href="https://www.thorncliffefamilydental.com/"><img class="img-fluid" src="/resources/img/sponsors/tfd.jpg"></a>
 		</div>
 		<div class="col-4 col-md-4 col-lg-4" id="sponsor-cols">
-			<a href="#"><img class="img-fluid" src="/resources/img/sponsors/pandell.jpg"></a>
+			<a href="https://www.pandell.com/"><img class="img-fluid" src="/resources/img/sponsors/pandell.jpg"></a>
 		</div>
 	</div>
 </div>
