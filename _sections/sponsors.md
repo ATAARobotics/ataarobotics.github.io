@@ -56,5 +56,11 @@ link: sponsors
 		<div class="col-4 col-md-4 col-lg-4" id="sponsor-cols">
 			<a href="https://www.pandell.com/"><img class="img-fluid" src="/resources/img/sponsors/pandell.jpg"></a>
 		</div>
+		<div class="col-4 col-md-4 col-lg-4" id="sponsor-cols">
+			<a href="https://ghaasfoundation.org"><img class="img-fluid" src="/resources/img/sponsors/gene-haas.png"></a>
+		</div>
+		<div class="col-4 col-md-4 col-lg-4" id="sponsor-cols">
+			<a href="https://www.argosyfnd.org/"><img class="img-fluid" src="/resources/img/sponsors/argosy-foundation.jpg"></a>
+		</div>
 	</div>
 </div>

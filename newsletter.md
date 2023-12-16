@@ -1,6 +1,6 @@
 ---
 title: Newsletter
-number: 3
+number: 
 link: newsletter
 ---
 <div class="row" id="newsletter">

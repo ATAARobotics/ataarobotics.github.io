@@ -17,7 +17,7 @@ link: contact
 	</div>
 	<div class="row" style="margin-top: 20px">
 		<div class="col-12">
-			<p>It's time to plan for another FIRST Robotics season which includes FLL, FTC, and FRC divisions. To be put on a waiting list for the 2022-2023 season, please complete this form. You will be contacted when space becomes available or in September 2022 for registration for next year's season.</p>
+			<p>Thanks for showing interest in our FIRST Robotics program which includes FLL, FTC, and FRC divisions. To be put on a waiting list for future seasons, please complete this form. You will be contacted when space becomes available for registration for next year's season.</p>
 		</div>
 	</div>
 	<div class="row" id="waitlistform">
