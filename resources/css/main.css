@@ -347,3 +347,12 @@ a.aboutButton:hover{
 a:hover{
     color: #ffffff;
 }
+
+.black-text {
+    color: black;
+}
+
+#resourcescontent {
+    background-color: #A39E9D;
+    padding: 50px;
+}

@@ -1,6 +1,6 @@
 ---
 title: Contact
-number: 8
+number: 9
 link: contact
 ---
 <div class="container">
