@@ -62,5 +62,8 @@ link: sponsors
 		<div class="col-4 col-md-4 col-lg-4" id="sponsor-cols">
 			<a href="https://www.argosyfnd.org/"><img class="img-fluid" src="/resources/img/sponsors/argosy-foundation.jpg"></a>
 		</div>
+		<div class="col-4 col-md-4 col-lg-4" id="sponsor-cols">
+			<a href="https://www.ilf.com/en-ca/"><img class="img-fluid" src="/resources/img/sponsors/ilf.png"></a>
+		</div>
 	</div>
 </div>
