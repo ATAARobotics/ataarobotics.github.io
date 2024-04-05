@@ -10,9 +10,26 @@ title: firsttechchallenge
     </div>
     <div class="row">
         <div class="col-md-8">
-            <p>FIRST Tech Challenge is FIRST's Program for middle-school and high-school students. The Alberta Tech Alliance Association organizes three FTC teams for students in grades 7 to 9. These teams (Hyperdroids #10015, Strike Bot #16595, Crazy Artificial Intelligence #16596, and Uncivilized Mecha Monkeys #23468), compete at multiple annual events in Canada for a spot at the World Competition in Houston, Texas.</p>
+            <p>
+              FIRST Tech Challenge is FIRST's Program for
+              middle-school and high-school students. The Alberta Tech
+              Alliance Association organizes three FTC teams for
+              students in grades 7 to 9. These teams (Hyperdroids
+              10015, Strike Bot 16595, Crazy Artificial Intelligence
+              16596, and Uncivilized Mecha Monkeys 23468), compete at
+              multiple annual events in Canada for a spot at the World
+              Competition in Houston, Texas.
+            </p>
 
-            <p>The 2024 season has been a significant success, with #10015 taking the win at provincials (earning a spot at Worlds), #16595 making it to semi-finals in provincials (as well as taking the Judge's Choice award), #23468 being 4th alliance captain in the Nii'miis'stii league tournament. #10015 also earned the Design award at Nii'miis'stii and was runner-up for Control at provincials.</p>
+            <p>
+              The 2024 season has been a significant success, with
+              10015 taking the win at provincials (earning a spot at
+              Worlds), 16595 making it to semi-finals in provincials
+              (as well as taking the Judge's Choice award) and 23468
+              being 4th alliance captain in the Nii'miis'stii league
+              tournament. 10015 also earned the Design award at
+              Nii'miis'stii and was runner-up for Control at
+              provincials.</p>
 
         </div>
         <div class="col-md-4" style="justify-content: center; display: flex; align-items: center;">
