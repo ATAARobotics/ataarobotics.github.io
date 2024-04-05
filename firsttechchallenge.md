@@ -28,7 +28,7 @@ title: firsttechchallenge
               (as well as earing the Judge's Choice award) and 23468
               being 4th alliance captain in the Nii'miis'stii league
               tournament. 10015 also earned the Design award at
-              Nii'miis'stii and was runner-up for Control at
+              Nii'miis'stii and was runner-up for the Control award at
               provincials.</p>
 
         </div>
@@ -53,16 +53,20 @@ title: firsttechchallenge
             The theme of pink shirts and gum continued: a googly-eyed
             3-wheeled kiwi-drive robot named "Bubblegum" in 2023 was
             replaced with a larger, squatter "Dubble Bubble" in 2024
-            (featuring a 4-wheel mecchanum drive base). The team has
-            learned to work together bringing sketches to prototypes
-            to designs, using more custom and 3D-printed fabrication
-            this year.
+            featuring a 4-wheel mecchanum drive base and plenty of
+            3D-printed pink parts. The team has learned to work
+            together bringing sketches to prototypes to designs, using
+            more custom and 3D-printed fabrication this year.
           </p>
           <p>
             Much of Hyperdroid's success is also due to their calm and
-            strategic drive-team backed up by an even better-tuned pit
-            crew keeping the robot tested, chargned and ready to
-            compete.
+            strategic drive-team backed up by a well-tuned pit crew
+            who keep the robot tested, charged and ready to compete.
+            An iterative approach to programming controls and
+            autonomous has allowed the team to meet a series of
+            smaller objectives on their way to a Worlds robot,
+            incorporating many control lessons and stategies from the
+            previous season.
           </p>
 
         </div>
