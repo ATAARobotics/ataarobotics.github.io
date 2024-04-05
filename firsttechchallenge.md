@@ -25,7 +25,7 @@ title: firsttechchallenge
               The 2024 season has been a significant success, with
               10015 taking the win at provincials (earning a spot at
               Worlds), 16595 making it to semi-finals in provincials
-              (as well as taking the Judge's Choice award) and 23468
+              (as well as earing the Judge's Choice award) and 23468
               being 4th alliance captain in the Nii'miis'stii league
               tournament. 10015 also earned the Design award at
               Nii'miis'stii and was runner-up for Control at
