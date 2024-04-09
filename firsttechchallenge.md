@@ -68,6 +68,9 @@ title: firsttechchallenge
             incorporating many control lessons and stategies from the
             previous season.
           </p>
+          <p>
+            Please see the <a href="https://www.youtube.com/@HyperDroidsFTCrobotics-hz9ow">Hyperdroids YouTube channel</a> and <a href="https://www.instagram.com/10015hyperdroids">@10015hyperdroids on Instagram</a>.
+          </p>
 
         </div>
         <div class="col-md-4" style="justify-content: center; display: flex; align-items: center;">
