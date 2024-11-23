@@ -17,17 +17,11 @@ link: sponsors
 		<div class="col-4 col-md-4 col-lg-4" id="sponsor-cols">
 			<a href="https://www.tetranex.com/"><img class="img-fluid" src="/resources/img/sponsors/tetranex.jpg"></a>
 		</div>
-		<div class="col-4 col-md-4 col-lg-4" id="sponsor-cols">
-			<a href="https://www.hatch.com/"><img class="img-fluid" src="/resources/img/sponsors/hatch.png"></a>
-		</div>
 		<div class="col-3 col-md-3 col-lg-3" id="sponsor-cols">
 			<a href="https://www.peloton.com/"><img class="img-fluid" src="/resources/img/sponsors/peloton.png"></a>
 		</div>
 		<div class="col-3 col-md-3 col-lg-3" id="sponsor-cols">
 			<a href="https://www.shingdigital.com/"><img class="img-fluid" src="/resources/img/sponsors/shing.png"></a>
-		</div>
-		<div class="col-3 col-md-3 col-lg-3" id="sponsor-cols">
-			<a href="https://lc.dev/"><img class="img-fluid" src="/resources/img/sponsors/launchcode.svg"></a>
 		</div>
 		<div class="col-3 col-md-3 col-lg-3" id="sponsor-cols">
 			<img class="img-fluid" src="/resources/img/sponsors/brandt.svg">
@@ -48,9 +42,6 @@ link: sponsors
 			<a href="https://www.mrlsolutions.com/"><img class="img-fluid" src="/resources/img/sponsors/mrl.png"></a>
 		</div>
 		<div class="col-4 col-md-4 col-lg-4" id="sponsor-cols">
-			<a href="https://www.emerson.com/en-us/global"><img class="img-fluid" src="/resources/img/sponsors/emerson.png"></a>
-		</div>
-		<div class="col-4 col-md-4 col-lg-4" id="sponsor-cols">
 			<a href="https://www.thorncliffefamilydental.com/"><img class="img-fluid" src="/resources/img/sponsors/tfd.jpg"></a>
 		</div>
 		<div class="col-4 col-md-4 col-lg-4" id="sponsor-cols">
@@ -64,6 +55,15 @@ link: sponsors
 		</div>
 		<div class="col-4 col-md-4 col-lg-4" id="sponsor-cols">
 			<a href="https://www.ilf.com/en-ca/"><img class="img-fluid" src="/resources/img/sponsors/ilf.png"></a>
+		</div>
+		<div class="col-4 col-md-4 col-lg-4" id="sponsor-cols">
+			<a href="https://www.patronscan.com/"><img class="img-fluid" src="/resources/img/sponsors/patronscan.png"></a>
+		</div>
+		<div class="col-4 col-md-4 col-lg-4" id="sponsor-cols">
+			<a href="https://www.aecon.com/"><img class="img-fluid" src="/resources/img/sponsors/aecon.png"></a>
+		</div>
+		<div class="col-4 col-md-4 col-lg-4" id="sponsor-cols">
+			<a href="https://www.ledcor.com/"><img class="img-fluid" src="/resources/img/sponsors/ledcor.png"></a>
 		</div>
 	</div>
 </div>
