@@ -15,6 +15,12 @@ link: sponsors
 			<a href="https://www.telus.com/en/"><img class="img-fluid" src="/resources/img/sponsors/telus.png"></a>
 		</div>
 		<div class="col-4 col-md-4 col-lg-4" id="sponsor-cols">
+			<a href="https://www.ledcor.com/"><img class="img-fluid" src="/resources/img/sponsors/ledcor.png"></a>
+		</div>
+		<div class="col-3 col-md-3 col-lg-3" id="sponsor-cols">
+			<a href="https://www.surerus-murphy.com/"><img class="img-fluid" src="/resources/img/sponsors/surerus-murphy.png"></a>
+		</div>
+		<div class="col-4 col-md-4 col-lg-4" id="sponsor-cols">
 			<a href="https://www.tetranex.com/"><img class="img-fluid" src="/resources/img/sponsors/tetranex.jpg"></a>
 		</div>
 		<div class="col-3 col-md-3 col-lg-3" id="sponsor-cols">
@@ -27,16 +33,10 @@ link: sponsors
 			<img class="img-fluid" src="/resources/img/sponsors/brandt.svg">
 		</div>
 		<div class="col-3 col-md-3 col-lg-3" id="sponsor-cols">
-			<a href="https://www.surerus-murphy.com/"><img class="img-fluid" src="/resources/img/sponsors/surerus-murphy.png"></a>
-		</div>
-		<div class="col-3 col-md-3 col-lg-3" id="sponsor-cols">
 			<a href="https://brentwoodprinting.com/"><img class="img-fluid" src="/resources/img/sponsors/brentwood.png"></a>
 		</div>
 		<div class="col-3 col-md-3 col-lg-3" id="sponsor-cols">
 			<a href="https://www.valentinevolvo.com/"><img class="img-fluid" src="/resources/img/sponsors/valentine-volvo.svg"></a>
-		</div>
-		<div class="col-4 col-md-4 col-lg-4" id="sponsor-cols">
-			<a href="https://www.signatureseismic.com/"><img class="img-fluid" src="/resources/img/sponsors/signature-seismic.jpg"></a>
 		</div>
 		<div class="col-4 col-md-4 col-lg-4" id="sponsor-cols">
 			<a href="https://www.mrlsolutions.com/"><img class="img-fluid" src="/resources/img/sponsors/mrl.png"></a>
@@ -60,10 +60,16 @@ link: sponsors
 			<a href="https://www.patronscan.com/"><img class="img-fluid" src="/resources/img/sponsors/patronscan.png"></a>
 		</div>
 		<div class="col-4 col-md-4 col-lg-4" id="sponsor-cols">
+			<a href="https://polarcomm.ca/"><img class="img-fluid" src="/resources/img/sponsors/polar-comms.png"></a>
+		</div>
+		<div class="col-4 col-md-4 col-lg-4" id="sponsor-cols">
 			<a href="https://www.aecon.com/"><img class="img-fluid" src="/resources/img/sponsors/aecon.png"></a>
 		</div>
 		<div class="col-4 col-md-4 col-lg-4" id="sponsor-cols">
-			<a href="https://www.ledcor.com/"><img class="img-fluid" src="/resources/img/sponsors/ledcor.png"></a>
+			<a href="https://www.mottelectric.com/"><img class="img-fluid" src="/resources/img/sponsors/mott-telecom.jpg"></a>
+		</div>
+		<div class="col-4 col-md-4 col-lg-4" id="sponsor-cols">
+			<a href="https://www.wesco.com"><img class="img-fluid" src="/resources/img/sponsors/wesco.jpg"></a>
 		</div>
 	</div>
 </div>

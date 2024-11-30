@@ -7,6 +7,7 @@ link: newsletter
 	<div class="col-12">
 		<h1>Newsletter</h1>
 		<p>ATAA Robotics now has a monthly newsletter! Read the most recent news here.</p>
+		
 	</div>
 </div>
 <div class="row" id="newsletter" style= "width: 100%;">
