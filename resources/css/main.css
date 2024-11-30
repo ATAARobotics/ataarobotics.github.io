@@ -8,7 +8,7 @@ body {
     color: #ffffff
 }
 #homecontent {
-    background-image: url('/resources/img/about.jpg');
+    background-image: url('/resources/img/about3.JPG');
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -202,13 +202,27 @@ Applies largest matching setting to the device.
     }
 }
 
+a:link {
+    color: #d7d7d7;
+}
+
+a:visited {
+    color:#d7d7d7
+}
+
+a:hover {
+    colour: #ffffff
+}
+
+a:active {}
+
 #supportcontent {
-    background-color: #c8bf2b;
+    background-color: #775157;
     padding: 50px;
 }
 
 #supportcontent a {
-    color: dimgray;
+    color: rgb(238, 185, 185);
 }
 
 #newslettercontent {
@@ -217,12 +231,12 @@ Applies largest matching setting to the device.
 }
 
 #forgecontent {
-    background-color: #A39E9D;
+    background-color: #B3001B;
     padding: 50px;
 }
 a.forgeButton{
     padding:0.35em 1.2em;
-    border:0.1em solid #cacaca;
+    border:0.1em solid #860216;
     margin:0 0.3em 0.3em 0;
     border-radius:0.12em;
     text-decoration:none;
@@ -231,8 +245,8 @@ a.forgeButton{
     transition: all 0.2s;
 }
 a.forgeButton:hover{
-    color:#000000;
-    background-color:#cacaca;
+    color:#ffffff;
+    background-color:#860216;
 }
 
 #fllcontent {
@@ -241,7 +255,7 @@ a.forgeButton:hover{
 }
 a.fllButton{
     padding:0.35em 1.2em;
-    border:0.1em solid #ff6c76;
+    border:0.1em solid #df2d39;
     margin:0 0.3em 0.3em 0;
     border-radius:0.12em;
     text-decoration:none;
@@ -250,16 +264,16 @@ a.fllButton{
     transition: all 0.2s;
 }
 a.fllButton:hover{
-    color:#000000;
-    background-color:#ff6c76;
+    color:#ffffff;
+    background-color:#df2d39;
 }
 #ftccontent {
-    background-color: #EF6340;
+    background-color: #ed709a;
     padding: 50px;
 }
 a.ftcButton{
     padding:0.35em 1.2em;
-    border:0.1em solid #FF8A6C;
+    border:0.1em solid #e55d8a;
     margin:0 0.3em 0.3em 0;
     border-radius:0.12em;
     text-decoration:none;
@@ -268,16 +282,16 @@ a.ftcButton{
     transition: all 0.2s;
 }
 a.ftcButton:hover{
-    color:#000000;
-    background-color:#FF8A6C;
+    color:#ffffff;
+    background-color:#e55d8a;
 }
 
 #contactcontent {
-    background-color: #70a6ff;
+    background-color: #2e2d2c;
     padding: 50px;
 }
 #aboutcontent {
-    background-color: #78909c;
+    background-color: #6f6f6f;
     padding: 50px;
 }
 #sponsor-rows {
@@ -319,7 +333,7 @@ a.emailButton:hover{
 }
 
 #firsttechchallenge {
-    background-color: #EF6340;
+    background-color: #ed709a;
     padding: 50px;
 }
 
@@ -330,7 +344,7 @@ a.emailButton:hover{
 }
 a.aboutButton{
     padding:0.35em 1.2em;
-    border:0.1em solid #ADC3CE;
+    border:0.1em solid #606060;
     margin:0 0.3em 0.3em 0;
     border-radius:0.12em;
     text-decoration:none;
@@ -340,8 +354,8 @@ a.aboutButton{
 }
 
 a.aboutButton:hover{
-    color:#000000;
-    background-color:#ADC3CE;
+    color:#ffffff;
+    background-color:#606060;
 }
 
 a:hover{
