@@ -8,7 +8,7 @@ body {
     color: #ffffff
 }
 #homecontent {
-    background-image: url('/resources/img/about3.JPG');
+    background-image: url('/resources/img/about3.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -129,7 +129,7 @@ Applies largest matching setting to the device.
         font-size: 31px
     }
     #homeCover {
-        padding: 200px;
+        padding: 150px;
     }
     #newsletter {
         display: block;
