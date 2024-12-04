@@ -9,7 +9,7 @@ title: firsttechchallenge
         </div>
     </div>
     <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-7">
             <p>
               FIRST Tech Challenge is FIRST's Program for
               middle-school and high-school students. The Alberta Tech
@@ -32,7 +32,7 @@ title: firsttechchallenge
               provincials.</p>
 
         </div>
-        <div class="col-md-4" style="justify-content: center; display: flex; align-items: center;">
+        <div class="col-md-5" style="justify-content: center; display: flex; align-items: center;">
             <a href="https://FIRSTinspires.org"><img class="img-fluid" src="/resources/img/ftc.png"></a>
         </div>
     </div>
@@ -42,7 +42,7 @@ title: firsttechchallenge
         </div>
     </div>
     <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-7">
           <p>
             Although an older team number, Hyperdroids had a re-boot
             in their 2023 season with all-new students and
@@ -73,7 +73,7 @@ title: firsttechchallenge
           </p>
 
         </div>
-        <div class="col-md-4" style="justify-content: center; display: flex; align-items: center;">
+        <div class="col-md-5" style="justify-content: center; display: flex; align-items: center;">
             <img class="img-fluid" src="/resources/img/ftcteams/hyperdroids-10015--2024-provincials-win.jpg">
         </div>
     </div>
@@ -83,10 +83,10 @@ title: firsttechchallenge
         </div>
     </div>
     <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-7">
             <p></p>
         </div>
-        <div class="col-md-4" style="justify-content: center; display: flex; align-items: center;">
+        <div class="col-md-5" style="justify-content: center; display: flex; align-items: center;">
             <img class="img-fluid" src="/resources/img/ftcteams/placeholder.jpg">
         </div>
     </div>
@@ -97,11 +97,16 @@ title: firsttechchallenge
         </div>
     </div>
     <div class="row">
-        <div class="col-8">
+        <div class="col-7">
             <p></p>
         </div>
-        <div class="col-md-4" style="justify-content: center; display: flex; align-items: center;">
-            <img class="img-fluid" src="/resources/img/ftcteams/placeholder.jpg">
+        <div class="col-md-5" style="justify-content: center; display: flex; align-items: center;">
+            <div class="col-6">
+                <img class="img-fluid" src="/resources/img/ftc1.jpg">
+            </div>
+            <div class="col-6">
+                <img class="img-fluid" src="/resources/img/ftc2.jpg">
+            </div>
         </div>
     </div>
 
@@ -111,10 +116,10 @@ title: firsttechchallenge
         </div>
     </div>
     <div class="row">
-        <div class="col-8">
+        <div class="col-7">
             <p>UMM is a rookie team in 2024.</p>
         </div>
-        <div class="col-md-4" style="justify-content: center; display: flex; align-items: center;">
+        <div class="col-md-5" style="justify-content: center; display: flex; align-items: center;">
             <img class="img-fluid" src="/resources/img/ftcteams/placeholder.jpg">
         </div>
     </div>
