@@ -3,6 +3,7 @@ body {
 }
 #mainNav {
     background-color: rgba(64, 64, 64, 0.6);
+    flex-wrap: wrap;
 }
 .navbar-nav .nav-item .nav-link {
     color: #ffffff
@@ -202,15 +203,15 @@ Applies largest matching setting to the device.
     }
 }
 
-a:link {
+#docs a:link {
     color: #d7d7d7;
 }
 
-a:visited {
+#docs a:visited {
     color:#d7d7d7
 }
 
-a:hover {
+#docs a:hover {
     colour: #ffffff
 }
 

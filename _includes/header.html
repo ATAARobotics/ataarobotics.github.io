@@ -17,18 +17,26 @@
 </head>
 
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-	<a class="navbar-brand" href="/"><img src="/resources/img/ataa.png" height="50" alt=""></a>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-		<span class="navbar-toggler-icon"></span>
-	</button>
-	<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+	<div style="width: 100%; text-align: center;">
+		<h3>Help FTC team 10015 get to the world championships! Contribute to our GoFundMe <a
+				href="https://www.gofundme.com/f/help-team-10015-hyperdroids-get-to-the-first-championship">here</a>
+		</h3>
+	</div>
+	<div style="flex: 1; display: flex;">
+		<a href=" /"><img src="/resources/img/ataa.png" height="50" alt=""></a>
+		<button class="navbar-toggler" style="margin-left: auto;" type="button" data-toggle="collapse"
+			data-target="#navbarNav">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+	</div>
+	<div class="collapse navbar-collapse justify-content-end" style="margin-left: auto;" id="navbarNav">
 		<ul class="navbar-nav">
 			<!-- Generates Navbar text and links based on sections + Calendar-->
 			{% assign ordered = site.sections| sort:"number" %}
 			{%for section in ordered%}
-				<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-					<a class="nav-link" href="/#{{section.link}}">{{section.title}}</a>
-				</li>
+			<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+				<a class="nav-link" href="/#{{section.link}}">{{section.title}}</a>
+			</li>
 			{%endfor%}
 			<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
 				<a class="nav-link" href="/calendar">Calendar</a>

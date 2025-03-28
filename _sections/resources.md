@@ -3,7 +3,7 @@ title: Resources
 number: 8
 link: resources
 ---
-<div class="container" style="padding: 0px">
+<div id="docs" class="container" style="padding: 0px">
 	<div class="row">
 		<div class="col-12">
 			<h1>Resources</h1>
