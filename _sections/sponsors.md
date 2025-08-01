@@ -1,6 +1,6 @@
 ---
 title: Sponsors
-number: 7
+number: 8
 link: sponsors
 ---
 <div class="container" style="padding: 0px">
