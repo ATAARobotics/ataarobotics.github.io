@@ -1,6 +1,6 @@
 ---
 title: Resources
-number: 9
+number: 8
 link: resources
 ---
 <div id="docs" class="container" style="padding: 0px">

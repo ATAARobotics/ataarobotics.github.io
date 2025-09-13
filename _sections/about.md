@@ -1,6 +1,6 @@
 ---
 title: About
-number: 3
+number: 2
 link: about
 ---
 <div class="col-12">
