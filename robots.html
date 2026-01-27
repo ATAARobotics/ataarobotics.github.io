@@ -1,0 +1,385 @@
+---
+layout: default
+title: FORGE Robots
+logo: forge
+---
+<style>
+  body {
+    background-color: #2f2f2f;
+  }
+
+  .robots-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 2rem;
+  }
+
+  .robot-flip-card {
+    width: 320px;
+    height: 580px;
+    perspective: 1200px;
+  }
+
+  .robot-flip-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+
+  .robot-flip-card:hover .robot-flip-inner {
+    transform: rotateY(180deg);
+  }
+
+  .robot-flip-front,
+  .robot-flip-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    backface-visibility: hidden;
+    overflow: hidden;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.4);
+  }
+
+  /* FIXED Z-INDEX ISSUE */
+  .robot-flip-front {
+    z-index: 1;
+  }
+
+  .robot-flip-back {
+    z-index: 2;
+  }
+
+  .robot-flip-front {
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .robot-flip-front img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+  }
+
+  .robot-front-labels {
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .robot-name {
+    font-size: 22px;
+    font-family: 'Orbitron', sans-serif;
+    color: #ff4a4a;
+  }
+
+  .robot-year {
+    font-size: 14px;
+    color: #ddd;
+  }
+
+  .robot-flip-back {
+    background-color: #1c1c1c;
+    color: #fff;
+    transform: rotateY(180deg);
+    padding: 10px 20px 20px 20px;
+    /* FIXED TOP SPACE */
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .robot-desc {
+    line-height: 1.5;
+    flex-grow: 1;
+    overflow-y: auto;
+    white-space: normal;
+    /* FIXED BULLET ALIGNMENT */
+    margin-bottom: 10px;
+  }
+
+  .robot-desc strong {
+    display: block;
+    margin-top: 10px;
+    color: #ff4a4a;
+  }
+
+  .robot-links a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 12px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 6px;
+    font-size: 13px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+  }
+
+  .robot-links a:hover {
+    background-color: #0056b3;
+  }
+
+  .robot-links {
+    text-align: center;
+  }
+
+  .robot-flip-card:hover .robot-flip-front {
+    pointer-events: none;
+  }
+
+  .robot-flip-card:hover .robot-flip-back {
+    pointer-events: auto;
+  }
+
+  header .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    flex-wrap: wrap;
+  }
+
+  .logo {
+    height: 60px;
+  }
+
+  .banner {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.8rem;
+    color: #ff4a4a;
+  }
+
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #1f1f1f;
+    color: #bbb;
+    margin-top: 3rem;
+  }
+
+  ul {
+    padding-inline-start: 0;
+    margin-top: 0;
+  }
+
+  li {
+    list-style-position: inside;
+  }
+</style>
+
+<main class="robots-page">
+  <h2 style="text-align: center; margin: 2rem 0;">Meet Our Robots</h2>
+  <div class="robots-container">
+
+    <!-- 2026 Placeholder -->
+    <div class="robot-flip-card">
+      <div class="robot-flip-inner">
+        <div class="robot-flip-front">
+          <img src="robot pics/Screen Shot 2025-11-06 at 10.59.57 PM.png" alt="2026 Robot" />
+          <div class="robot-front-labels">
+            <div class="robot-name">TBA</div>
+            <div class="robot-year">2026</div>
+          </div>
+        </div>
+        <div class="robot-flip-back">
+          <div class="robot-desc">
+            <strong>Game:</strong> TBA
+            <strong>Key Features:</strong>
+            <ul>
+              <li>TBA</li>
+            </ul>
+            <strong>Awards:</strong>
+            <ul>
+              <li>TBA</li>
+            </ul>
+            <strong>Fun Fact:</strong> TBA
+          </div>
+          <div class="robot-links">
+            <a href="https://www.thebluealliance.com/team/4421/2026" target="_blank" rel="noopener noreferrer">Blue
+              Alliance</a>
+            <a href="https://www.statbotics.io/team/4421" target="_blank" rel="noopener noreferrer">Statbotics</a>
+            <a href="#" target="_blank" rel="noopener noreferrer">Game Reveal</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- LOKI -->
+    <div class="robot-flip-card">
+      <div class="robot-flip-inner">
+        <div class="robot-flip-front">
+          <img src="robot pics/4421 2024 Loki.jpg" alt="LOKI 2025" />
+          <div class="robot-front-labels">
+            <div class="robot-name">LOKI</div>
+            <div class="robot-year">2025 – Qualified for Worlds</div>
+          </div>
+        </div>
+        <div class="robot-flip-back">
+          <div class="robot-desc">
+            <strong>Game:</strong> Reefscape — stacking pipes on a coral reef-like structure, scoring kickballs into a
+            net, and climbing a cage in endgame.
+            <strong>Key Features:</strong>
+            <ul>
+              <li>Custom-built elevator allowing all reef-level, processor, and net scoring.</li>
+              <li>Pivot arm for algae manipulation and rapid scoring at all angles.</li>
+              <li>Consistent climber enabling RP scoring and endgame bonus points.</li>
+            </ul>
+            <strong>Awards:</strong>
+            <ul>
+              <li>Gracious Professionalism Award at Canpac.</li>
+              <li>Team Spirit Award at Las Vegas.</li>
+              <li>Vegas semifinalist.</li>
+              <li>Qualified for Worlds, placed 32nd in division.</li>
+              <li>Ranked top 30 in Canada.</li>
+            </ul>
+            <strong>Fun Fact:</strong> Named Loki due to an early algae scoring mechanism resembling Loki's horns.
+            Rebuilt mid-season by removing an elevator stage and adding a pivot to improve scoring speed and
+            flexibility.
+          </div>
+          <div class="robot-links">
+            <a href="https://www.thebluealliance.com/team/4421/2025" target="_blank" rel="noopener noreferrer">Blue
+              Alliance</a>
+            <a href="https://www.statbotics.io/team/4421" target="_blank" rel="noopener noreferrer">Statbotics</a>
+            <a href="https://www.youtube.com/watch?v=YWbxcjlY9JY" target="_blank" rel="noopener noreferrer">Game
+              Reveal</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sir William -->
+    <div class="robot-flip-card">
+      <div class="robot-flip-inner">
+        <div class="robot-flip-front">
+          <img src="robot pics/4421 2024 Sir William.jpg" alt="Sir William 2024" />
+          <div class="robot-front-labels">
+            <div class="robot-name">Sir William</div>
+            <div class="robot-year">2024</div>
+          </div>
+        </div>
+        <div class="robot-flip-back">
+          <div class="robot-desc">
+            <strong>Game:</strong> Crescendo — shooting orange tori into a structure and climbing onto a chain in
+            endgame.
+            <strong>Key Features:</strong>
+            <ul>
+              <li>Linear actuators for consistent pivot and climb, enabling scoring from variable distances.</li>
+              <li>Carbon fiber rollers for efficient ground intake.</li>
+              <li>Odometry combined with Limelight vision for auto-aligning with the scoring target.</li>
+            </ul>
+            <strong>Awards:</strong>
+            <ul>
+              <li>Quality Award at Canpac.</li>
+              <li>Canpac Finalist.</li>
+              <li>Innovation in Control Award at Las Vegas.</li>
+              <li>Top 10 percent robot worldwide by EPA, top 20 in Canada.</li>
+            </ul>
+            <strong>Fun Fact:</strong> Nicknamed "Big Willy" after a team member's grandfather who donated
+            generously. One of only two teams worldwide using REV linear actuators this year. Considered the best
+            robot ATAA has made so far.
+          </div>
+          <div class="robot-links">
+            <a href="https://www.thebluealliance.com/team/4421/2024" target="_blank" rel="noopener noreferrer">Blue
+              Alliance</a>
+            <a href="https://www.statbotics.io/team/4421" target="_blank" rel="noopener noreferrer">Statbotics</a>
+            <a href="https://www.youtube.com/watch?v=9keeDyFxzY4" target="_blank" rel="noopener noreferrer">Game
+              Reveal</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Xcalibur -->
+    <div class="robot-flip-card">
+      <div class="robot-flip-inner">
+        <div class="robot-flip-front">
+          <img src="robot pics/4421 2023 Xcalibur.jpg" alt="Xcalibur 2023" />
+          <div class="robot-front-labels">
+            <div class="robot-name">Xcalibur</div>
+            <div class="robot-year">2023</div>
+          </div>
+        </div>
+        <div class="robot-flip-back">
+          <div class="robot-desc">
+            <strong>Game:</strong> Charged Up — stacking cubes and pylons on shelves and balancing on the charging
+            station.
+            <strong>Key Features:</strong>
+            <ul>
+              <li>Solid 1/8" aluminum bellypan to lower the center of mass.</li>
+              <li>Custom-built 2-stage arm for reliable scoring.</li>
+              <li>Auto-balancing for endgame stability.</li>
+            </ul>
+            <strong>Awards:</strong>
+            <ul>
+              <li>Placed 5th in Canpac qualifications.</li>
+            </ul>
+            <strong>Fun Fact:</strong> Named Xcalibur for its X-like frame structure.
+          </div>
+          <div class="robot-links">
+            <a href="https://www.thebluealliance.com/team/4421/2023" target="_blank" rel="noopener noreferrer">Blue
+              Alliance</a>
+            <a href="https://www.statbotics.io/team/4421" target="_blank" rel="noopener noreferrer">Statbotics</a>
+            <a href="https://www.youtube.com/watch?v=0zpflsYc4PA" target="_blank" rel="noopener noreferrer">Game
+              Reveal</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Doug -->
+    <div class="robot-flip-card">
+      <div class="robot-flip-inner">
+        <div class="robot-flip-front">
+          <img src="robot pics/4421 2022 Champs.jpg" alt="Doug 2022" />
+          <div class="robot-front-labels">
+            <div class="robot-name">Doug</div>
+            <div class="robot-year">2022 – Qualified for Worlds</div>
+          </div>
+        </div>
+        <div class="robot-flip-back">
+          <div class="robot-desc">
+            <strong>Game:</strong> Rapid React — shooting balls and climbing.
+            <strong>Key Features:</strong>
+            <ul>
+              <li>4 STS non-inverted swerve drive with Falcon motors.</li>
+              <li>Climb to all 4 levels.</li>
+              <li>3-ball hopper capacity.</li>
+              <li>Single motor shooter.</li>
+              <li>Used LIDAR sensors for positioning and control.</li>
+            </ul>
+            <strong>Awards:</strong>
+            <ul>
+              <li>Excellence in Engineering Award Idaho Regional.</li>
+              <li>Innovation in Control Award at CANPAC.</li>
+              <li>Qualified for Worlds, placed 60th in division.</li>
+            </ul>
+            <strong>Fun Fact:</strong> "No fun, all business" robot. Now retired and serves as a swerve drive
+            chassis for training/testing.
+          </div>
+          <div class="robot-links">
+            <a href="https://www.thebluealliance.com/team/4421/2022" target="_blank" rel="noopener noreferrer">Blue
+              Alliance</a>
+            <a href="https://www.statbotics.io/team/4421" target="_blank" rel="noopener noreferrer">Statbotics</a>
+            <a href="https://www.youtube.com/watch?v=LgniEjI9cCM" target="_blank" rel="noopener noreferrer">Game
+              Reveal</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>

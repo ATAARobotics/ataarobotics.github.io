@@ -1,0 +1,138 @@
+---
+layout: default
+title: FORGE Legacy
+logo: forge
+---
+<style>
+  body {
+    margin: 0;
+    background-color: #2f2f2f;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  header .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    flex-wrap: wrap;
+  }
+
+  .logo {
+    height: 60px;
+  }
+
+  .banner {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.8rem;
+    color: #ff4a4a;
+  }
+
+  /* Timeline styling */
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+    margin: 3rem auto;
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+
+  .timeline-entry {
+    background-color: #1a1a1a;
+    padding: 1.5rem;
+    border-left: 6px solid #ff4a4a;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(255, 74, 74, 0.2);
+    transition: transform 0.3s ease;
+  }
+
+  .timeline-entry:hover {
+    transform: scale(1.02);
+  }
+
+  .timeline-entry h2 {
+    color: #ff4a4a;
+    margin-top: 0;
+  }
+
+  .timeline-entry p {
+    line-height: 1.6;
+    color: #ddd;
+  }
+
+  .timeline-entry a {
+    color: #ff4a4a;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .timeline-entry a:hover {
+    text-decoration: underline;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 2rem auto 4rem auto;
+    padding: 0 1rem;
+  }
+
+  .gallery img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 74, 74, 0.3);
+  }
+</style>
+
+<!-- Timeline Section -->
+<section class="timeline">
+  <h1>Our History</h1>
+  <div class="timeline-entry">
+    <h2>Alberta Tech Alliance (Team 4334)</h2>
+    <p>Founded in 2012, Alberta Tech Alliance quickly established itself as a formidable presence in the FRC community.
+      In their rookie year, they achieved the remarkable feat of reaching the Einstein field at the World Championship,
+      setting a high standard for excellence. Over the years, ATA has garnered numerous accolades, including multiple
+      regional wins and prestigious awards such as the Woodie Flowers Finalist Award and the Judges' Award. Their
+      dedication to innovation and mentorship has made them a cornerstone of Calgary's robotics community.</p>
+    <p><a href="https://www.4334.ca/" target="_blank">Team 4334 Website</a> | <a
+        href="https://www.thebluealliance.com/team/4334" target="_blank">ATA Blue Alliance</a></p>
+  </div>
+
+  <div class="timeline-entry">
+    <h2>SWAT Bots Robotics (Team 5015)</h2>
+    <p>Established in 2014, SWAT Bots Robotics made an immediate impact by earning the Rookie All-Star Award at the
+      Western Canada Regional. Their journey continued with significant achievements, including being selected as an
+      alliance captain at the 2019 FIRST Championship in Houston. Their robot, "Warthog," became a symbol of their
+      engineering prowess and teamwork. Throughout their seasons, SWAT Bots have been recognized for their commitment to
+      excellence and have inspired many with their journey from rookies to world-class competitors.</p>
+    <p><a href="https://www.thebluealliance.com/team/5015" target="_blank">SWAT Bots Blue Alliance</a></p>
+  </div>
+
+  <div class="timeline-entry">
+    <h2>The Formation of FORGE Robotics (Team 4421)</h2>
+    <p>In 2021, recognizing the potential for greater impact through collaboration, ATA and SWAT Bots merged to form
+      FORGE Robotics (Team 4421). This fusion brought together the strengths of both teams: ATA's legacy of innovation
+      and mentorship, and SWAT Bots' dynamic engineering and competition experience. Together, FORGE Robotics aims to
+      push the boundaries of what is possible in robotics, fostering a culture of learning, resilience, and community
+      engagement.</p>
+    <p><a href="https://www.thebluealliance.com/team/4421" target="_blank">FORGE Robotics Blue Alliance</a></p>
+  </div>
+</section>
+
+<div class="gallery">
+  <img src="https://codehs.com/uploads/e53ae46597cce6547ca55e7a3c3c3ccd" alt="2012 Einstein Run">
+  <img src="robot pics/Screen Shot 2025-11-12 at 11.33.04 AM.png" alt="4421 at Champs">
+  <img src="robot pics/ATA 4334 2018 Clawboy.jpg" alt="ATA 2018 Clawboy">
+  <img src="robot pics/ATA 4334 2019 Neutrino.jpg" alt="ATA 2019 Neutrino">
+</div>

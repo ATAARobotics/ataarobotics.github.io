@@ -1,0 +1,228 @@
+---
+layout: default
+title: FORGE Media
+logo: forge
+---
+<style>
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background: #2f2f2f;
+    color: #eee;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  main {
+    flex-grow: 1;
+    max-width: 960px;
+    margin: 3rem auto 4rem;
+    padding: 0 1rem;
+  }
+
+  h2.section-title {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    font-size: 2.75rem;
+    color: #ff4a4a;
+    margin-bottom: 1.25rem;
+    position: relative;
+    display: inline-block;
+    user-select: none;
+  }
+
+  h2.section-title::after {
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 5px;
+    background: #b33951;
+    bottom: -6px;
+    left: 0;
+    border-radius: 3px;
+    box-shadow: 0 0 10px #ff4a4a;
+  }
+
+  .press-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 3rem;
+  }
+
+  .press-list li {
+    background: #1e1e1e;
+    border: 2px solid #ff4a4a;
+    border-radius: 14px;
+    padding: 1.8rem 2rem;
+    box-shadow: 0 6px 20px rgba(255, 74, 74, 0.3);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .press-list li:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 14px 30px rgba(255, 74, 74, 0.7);
+  }
+
+  /* CHANGED: link text is now white */
+  .press-list a {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.15rem;
+    text-decoration: none;
+    user-select: none;
+  }
+
+  .press-list a:hover {
+    text-decoration: underline;
+  }
+
+  .quote {
+    max-width: 720px;
+    margin: 0 auto 4rem;
+    font-style: italic;
+    font-size: 1.25rem;
+    color: #d0d0d0;
+    border-left: 6px solid #ff4a4a;
+    padding-left: 1rem;
+    text-shadow: 0 0 6px #b33951;
+    user-select: none;
+  }
+
+  .instagram-section {
+    max-width: 540px;
+    margin: 0 auto 4rem;
+    border: 4px solid #ff4a4a;
+    border-radius: 22px;
+    box-shadow: 0 0 24px #ff4a4a;
+    overflow: hidden;
+    background: #111;
+    padding: 1rem;
+  }
+
+  .instagram-section h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    user-select: none;
+  }
+
+  .instagram-section p {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 0.6rem;
+  }
+
+  .instagram-section a {
+    color: #ff4a4a;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .instagram-section a:hover {
+    text-decoration: underline;
+  }
+
+  .downloads-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.8rem;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 4rem;
+  }
+
+  .downloads-list li {
+    background: #1e1e1e;
+    border: 2px solid #ff4a4a;
+    border-radius: 16px;
+    padding: 1.8rem 2rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    user-select: none;
+    box-shadow: 0 8px 22px rgba(255, 74, 74, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .downloads-list li:hover {
+    background-color: #ff4a4a;
+    color: #111;
+    box-shadow: 0 14px 38px #ff4a4a;
+  }
+
+  .downloads-list a {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+  }
+
+  @media (max-width: 600px) {
+    main {
+      margin: 2rem 1rem 3rem;
+    }
+
+    h2.section-title {
+      font-size: 2rem;
+    }
+
+    .press-list,
+    .downloads-list {
+      grid-template-columns: 1fr;
+    }
+
+    .instagram-section {
+      max-width: 100%;
+    }
+  }
+</style>
+
+<main>
+  <section class="instagram-section" aria-label="Instagram feed">
+    <h2>Instagram Feed</h2>
+    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/4421FORGE/"
+      data-instgrm-version="14"
+      style="background:#FFF; border:none; margin:1rem auto; max-width:540px; padding:0; width:99%;"></blockquote>
+    <script async src="//www.instagram.com/embed.js"></script>
+    <p>Follow us on <a href="https://www.instagram.com/4421FORGE/" target="_blank" rel="noopener noreferrer">@4421FORGE</a></p>
+  </section>
+
+  <section class="press-section">
+    <h2 class="section-title">Press &amp; News</h2>
+    <ul class="press-list">
+      <li><a href="https://youtu.be/RvN2nVQNOXI?feature=shared" target="_blank">FORGE Robotics Featured on Local News</a></li>
+      <li><a href="https://youtu.be/27_cYP2wV9Q?si=NKq4W5IZ5nypBX0g" target="_blank">2025 FIRST Champs FRC Sizzle Video</a></li>
+      <li><a href="https://youtu.be/UkN9NHDlqx8?si=4tue_elK2HH6zUM0" target="_blank">2025 FIRST Champs Sponsor Highlight Video</a></li>
+      <li><a href="https://youtu.be/KOzJsE8XorQ?si=iERWp16i4QC_9QHs" target="_blank">Vegas Match Video</a></li>
+      <li><a href="https://youtu.be/PteQ19sB778?si=VAtM1dJnm0xMv9BJ" target="_blank">Champs Match Video</a></li>
+      <li><a href="https://www.youtube.com/watch?v=ILo6bY-9bAI" target="_blank">Our YouTube Channel – CanPac 2022</a></li>
+      <li><a href="https://www.youtube.com/watch?v=pXpfVwNjV7Q" target="_blank">Behind the Bumpers Vegas 2023</a></li>
+      <li><a href="https://www.youtube.com/watch?v=QV_zYhCjaOc" target="_blank">Behind the Bumpers Vegas 2024</a></li>
+      <li><a href="https://www.youtube.com/shorts/oUMNkOIDmI0" target="_blank">Pit Stop Vegas 2025</a></li>
+    </ul>
+  </section>
+
+  <section class="downloads-section">
+    <h2 class="section-title">Downloads &amp; Media Kit</h2>
+    <ul class="downloads-list">
+      <li><a href="/assets/media/ATAA_Sponsorship_Package.pdf" target="_blank" download>Sponsorship Package (PDF)</a></li>
+      <li><a href="robot pics/FORGE logo.png" target="_blank" download>Team Logos (ZIP)</a></li>
+    </ul>
+  </section>
+</main>
