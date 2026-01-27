@@ -1,0 +1,119 @@
+---
+layout: default
+title: Event Countdown
+---
+<style>
+  body {
+    background-color: #2f2f2f;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  header,
+  footer {
+    background-color: #1f1f1f;
+    padding: 1rem 2rem;
+    text-align: center;
+  }
+
+  .banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-family: 'Orbitron', sans-serif;
+    color: #ff4a4a;
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+
+  .banner img {
+    height: 50px;
+  }
+
+  main {
+    text-align: center;
+    padding: 2rem 1rem 4rem;
+  }
+
+  .countdown-section {
+    margin: 2rem auto;
+    padding: 30px;
+    background-color: #1c1c1c;
+    border: 2px solid #ff4a4a;
+    border-radius: 15px;
+    max-width: 600px;
+    box-shadow: 0 0 20px rgba(255, 74, 74, 0.3);
+  }
+
+  h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    color: #ff4a4a;
+    margin-bottom: 15px;
+    margin-top: 0;
+  }
+
+  .timer {
+    font-size: 1.5rem;
+    color: #eee;
+  }
+
+  footer p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    color: #bbb;
+  }
+</style>
+
+  <div class="countdown-section">
+    <h2>2026 Canadian Pacific Regional (CANPAC)</h2>
+    <div id="canpac-timer" class="timer"></div>
+    <p><a href="https://www.thebluealliance.com/event/2026bcvi" target="_blank" rel="noopener noreferrer"
+        style="color:#ff4a4a; text-decoration:none;">View on The Blue Alliance</a></p>
+  </div>
+
+  <div class="countdown-section">
+    <h2>Las Vegas Regional</h2>
+    <div id="vegas-timer" class="timer"></div>
+    <p><a href="https://www.thebluealliance.com/event/2026nvlv" target="_blank" rel="noopener noreferrer"
+        style="color:#ff4a4a; text-decoration:none;">View on The Blue Alliance</a></p>
+  </div>
+
+  <div class="countdown-section">
+    <h2>FIRST Championship 2026</h2>
+    <div id="first-timer" class="timer"></div>
+  </div>
+</main>
+
+<script>
+  function startCountdown(id, dateStr) {
+    const timerEl = document.getElementById(id);
+    const targetDate = new Date(dateStr).getTime();
+
+    const interval = setInterval(() => {
+      const now = new Date().getTime();
+      const diff = targetDate - now;
+
+      if (diff <= 0) {
+        clearInterval(interval);
+        timerEl.innerText = "🎉 It's time! 🎉";
+        return;
+      }
+
+      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+      timerEl.innerText = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+    }, 1000);
+  }
+
+  
+  startCountdown("canpac-timer", "2026-03-04T09:00:00");
+  startCountdown("vegas-timer", "2026-04-08T09:00:00");
+  startCountdown("first-timer", "2026-04-29T09:00:00");
+</script>

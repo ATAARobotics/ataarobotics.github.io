@@ -1,0 +1,349 @@
+* {
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0f0f0f;
+  color: #eee;
+  line-height: 1.6;
+}
+
+/* === Header === */
+header {
+  background-color: #111;
+  padding: 1rem 0;
+  position: relative;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  height: 60px;
+  width: auto;
+}
+
+.banner {
+  font-size: 2.2rem;
+  color: #ff4a4a;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+nav {
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  flex-wrap: wrap;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  background-color: #ff4a4a;
+}
+
+nav a,
+.dropdown>a,
+.dropdown-content a {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  font-size: 16px !important;
+  line-height: 1.2 !important;
+  color: white;
+  min-width: 110px;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  transition: background 0.3s;
+  white-space: nowrap;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 0.4rem 0.6rem;
+}
+
+nav a:hover,
+.dropdown>a:hover,
+nav a.active,
+.dropdown-content a:hover {
+  background-color: #ff4a4a;
+}
+
+/* === Dropdown === */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 180px;
+  z-index: 999;
+  border-radius: 4px;
+  overflow: hidden;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: left;
+  flex-direction: column;
+  padding: 0.5rem;
+  border-radius: 6px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+}
+
+/* === Responsive Nav === */
+@media (max-width: 600px) {
+  .nav-links {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  nav {
+    padding: 1rem;
+  }
+
+  .dropdown-content {
+    position: static;
+    min-width: 100%;
+    transform: none;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+}
+
+/* === Content Containers === */
+.container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+/* === Section Boxes === */
+section {
+  background: #1c1c1c;
+  padding: 1.5rem;
+  border-left: 6px solid #ff4a4a;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+}
+
+/* === Typography === */
+h2,
+h3 {
+  color: #ff4a4a;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* === Video === */
+video {
+  width: 100%;
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 2rem 0;
+}
+
+.call-to-action a {
+  background: #222;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.call-to-action a:hover {
+  background: #444;
+}
+
+/* === Footer === */
+footer {
+  background-color: #111;
+  color: #aaa;
+  text-align: center;
+  padding: 1rem;
+  border-top: 2px solid #ff4a4a;
+}
+
+
+.awards-container {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+.awards-container h2 {
+  font-size: 36px;
+  color: #ff4a4a;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.awards-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 40px;
+}
+
+.awards-container li {
+  background-color: #1a1a1a;
+  border: 1.5px solid rgba(255, 74, 74, 0.4);
+  border-radius: 16px;
+  padding: 30px 35px;
+  box-shadow:
+    0 0 20px rgba(255, 74, 74, 0.15),
+    0 15px 30px rgba(0, 0, 0, 0.5),
+    inset 0 0 8px rgba(255, 74, 74, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.awards-container li:hover {
+  transform: translateY(-10px);
+  box-shadow:
+    0 0 25px rgba(255, 74, 74, 0.4),
+    0 20px 40px rgba(0, 0, 0, 0.6),
+    inset 0 0 12px rgba(255, 74, 74, 0.1);
+}
+
+.awards-container li h3 {
+  font-size: 26px;
+  margin-bottom: 12px;
+  color: #ff4a4a;
+  border-bottom: 1px solid #333;
+  padding-bottom: 8px;
+}
+
+.awards-container li p {
+  margin: 10px 0;
+  color: #ddd;
+  line-height: 1.6;
+}
+
+
+.robots-page {
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.robots-page h2 {
+  font-size: 42px;
+  color: #ff4a4a;
+  margin-bottom: 40px;
+}
+
+.robots-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.robot-card {
+  background: radial-gradient(circle at top left, #1e1e1e, #0a0a0a);
+  border: 3px solid #ff4a4a;
+  border-radius: 20px;
+  width: 300px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(255, 74, 74, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.robot-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 25px rgba(255, 74, 74, 0.5);
+}
+
+.robot-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 2px solid #ff4a4a;
+}
+
+.robot-info {
+  padding: 20px;
+  text-align: left;
+  color: #f3f3f3;
+}
+
+.robot-name {
+  font-size: 22px;
+  font-weight: bold;
+  color: #ff4a4a;
+  margin-bottom: 5px;
+}
+
+.robot-year {
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 15px;
+}
+
+.robot-desc {
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+.robot-links a {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 5px;
+  padding: 6px 12px;
+  background-color: #ff4a4a;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 13px;
+  transition: background 0.3s;
+}
+
+.robot-links a:hover {
+  background-color: #e33a3a;
+}
