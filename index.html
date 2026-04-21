@@ -26,8 +26,34 @@ layout: default
     h2 {
         margin-top: 0;
     }
+
     a {
         color: #00c0ff;
+    }
+
+    .forge-buttons {
+        margin-top: 1.5rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .forge-buttons a {
+        display: inline-block;
+        margin-right: 12px;
+        margin-top: 10px;
+        padding: 10px 18px;
+        background-color: #ff4a4a;
+        color: #fff;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: 0.2s ease;
+        box-shadow: 0 0 10px rgba(255, 74, 74, 0.3);
+    }
+
+    .forge-buttons a:hover {
+        background-color: #cc0000;
+        box-shadow: 0 0 15px rgba(255, 74, 74, 0.6);
     }
 </style>
 
@@ -73,13 +99,9 @@ layout: default
         </p>
         <p>
             🔗
-            <strong
-                >Register
+            <strong>Register
                 <a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSfKxss6nNALXpkdP6OX1SmXkW3VvrWpcO9OfuNMjQqbwJcjpA/viewform?usp=dialog"
-                    >here</a
-                ></strong
-            >
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfKxss6nNALXpkdP6OX1SmXkW3VvrWpcO9OfuNMjQqbwJcjpA/viewform?usp=dialog">here</a></strong>
         </p>
         <p>
             📩 Registration is complete once BOTH the form and payment are
@@ -166,6 +188,10 @@ layout: default
             Championships through the new Regional Advancement System that
             rewarded our event performance and awards
         </p>
+        <div class="forge-buttons">
+            <a href="team.html">Learn More</a>
+            <a href="joinus.html">Join Us</a>
+        </div>
     </section>
 
     <section id="ftc">
@@ -211,8 +237,6 @@ layout: default
     <section class="call-to-action">
         <a href="joinus.html">Join Us</a>
         <a href="mailto:payment@ataarobotics.ca">Donate</a>
-        <a href="https://www.instagram.com/4421forge/" target="_blank"
-            >Instagram</a
-        >
+        <a href="https://www.instagram.com/4421forge/" target="_blank">Instagram</a>
     </section>
 </main>
