@@ -10,7 +10,19 @@
     rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="ataaStyles.css" />
-  <meta property="og:image" content="https://ataarobotics.ca/logos/forge_dark.png">
+  {% if page.ogImage %}
+  <meta property="og:image" content="{{ page.ogImage }}">
+  {% endif %}
+  {% if page.ogTitle %}
+  <meta property="og:title" content="{{ page.ogTitle }}">
+  {% endif %}
+  {% if page.ogUrl %}
+  <meta property="og:url" content="{{ page.ogUrl }}">
+  <meta property="og:type" content="website">
+  {% endif %}
+  {% if page.ogDescription %}
+  <meta property="og:description" content="{{ page.ogDescription }}">
+  {% endif %}
 </head>
 
 <body>
