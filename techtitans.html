@@ -1,107 +1,317 @@
 <!DOCTYPE html>
-
+<html lang="en" class="scroll-smooth">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Page Under Construction</title>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      background-color: #2f2f2f;
-      color: #ff4a4a;
-      font-family: 'Orbitron', sans-serif;
-      margin: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      flex-direction: column;
-      text-align: center;
-      overflow: hidden;
-    }
-
-    h1 {
-      font-size: 3rem;
-      margin-bottom: 1rem;
-      animation: pulse 1.8s infinite;
-    }
-
-    p {
-      color: #ccc;
-      font-size: 1.2rem;
-      margin-top: 0;
-      animation: fadeIn 2s ease forwards;
-    }
-
-    .gear {
-      font-size: 4rem;
-      animation: spin 2.5s linear infinite;
-      margin-top: 30px;
-    }
-
-    @keyframes pulse {
-      0% {
-        transform: scale(1);
-        opacity: 1;
-      }
-
-      50% {
-        transform: scale(1.05);
-        opacity: 0.7;
-      }
-
-      100% {
-        transform: scale(1);
-        opacity: 1;
-      }
-    }
-
-    @keyframes fadeIn {
-      0% {
-        opacity: 0;
-        transform: translateY(20px);
-      }
-
-      100% {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-    @keyframes spin {
-      0% {
-        transform: rotate(0deg);
-      }
-
-      100% {
-        transform: rotate(360deg);
-      }
-    }
-
-    .back-link {
-      margin-top: 40px;
-      display: inline-block;
-      color: #ff4a4a;
-      border: 2px solid #ff4a4a;
-      padding: 10px 20px;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: bold;
-      transition: background 0.3s;
-    }
-
-    .back-link:hover {
-      background-color: #ff4a4a;
-      color: black;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Titans Robotics | Team 23684</title>
+    
+    <!-- Tailwind CSS (V4) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            bg: '#090b10',
+                            card: '#12151d',
+                            border: '#1f2533',
+                            accent: '#f59e0b', // Warm amber/gold
+                            textMuted: '#94a3b8'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'Fira Code', 'monospace']
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Google Fonts: Exclusively loading Plus Jakarta Sans and JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
+<body class="bg-[#090b10] text-slate-200 font-sans antialiased overflow-x-hidden selection:bg-brand-accent selection:text-[#090b10]">
 
-<body>
-  <h1>🚧 This Page is Under Construction 🚧</h1>
-  <p>We're working hard to bring you something awesome.<br>Please check back soon!</p>
-  <div class="gear">⚙️</div>
-  <a href="index" class="back-link">← Back to Home</a>
+    <!-- Navigation Header -->
+    <header class="sticky top-0 z-50 backdrop-blur-xl bg-[#090b10]/90 border-b border-brand-border/60">
+        <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="#home" class="flex items-center gap-3 group">
+                <div class="p-2.5 bg-brand-card border border-brand-border rounded-xl">
+                    <i data-lucide="shield" class="w-5.5 h-5.5 text-brand-accent"></i>
+                </div>
+                <div>
+                    <span class="text-lg font-bold tracking-tight text-white flex items-center gap-1.5">
+                        TECH TITANS
+                    </span>
+                    <span class="text-[10px] text-brand-accent tracking-wider uppercase block -mt-1 font-semibold">FTC Team 23684</span>
+                </div>
+            </a>
+            
+            <!-- Desktop Nav Links -->
+            <nav class="hidden md:flex items-center gap-8">
+                <a href="#about" class="text-sm font-medium text-slate-400 hover:text-white transition-colors">Our Story</a>
+                <a href="#stats" class="text-sm font-medium text-slate-400 hover:text-white transition-colors">The Metrics</a>
+                <a href="#events" class="text-sm font-medium text-slate-400 hover:text-white transition-colors">Get Involved</a>
+                <a href="https://ftcscout.org/teams/23684" target="_blank" class="inline-flex items-center gap-1.5 text-xs bg-brand-card hover:bg-[#151a24] text-slate-300 hover:text-white px-4 py-2.5 rounded-xl border border-brand-border transition-all">
+                    <span>FTC Scout Stats</span>
+                    <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+                </a>
+            </nav>
+
+            <!-- Mobile Menu Toggle -->
+            <button onclick="toggleMobileMenu()" class="md:hidden p-2 text-slate-400 hover:text-white rounded-lg transition-colors">
+                <i data-lucide="menu" id="menuIcon" class="w-6 h-6"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Menu Panel -->
+        <div id="mobileMenu" class="hidden md:hidden border-b border-brand-border bg-[#090b10] px-6 py-6 space-y-4 absolute top-20 left-0 w-full shadow-2xl transition-all">
+            <a href="#about" onclick="toggleMobileMenu()" class="block text-slate-300 hover:text-white font-medium py-1">Our Story</a>
+            <a href="#stats" onclick="toggleMobileMenu()" class="block text-slate-300 hover:text-white font-medium py-1">The Metrics</a>
+            <a href="#events" onclick="toggleMobileMenu()" class="block text-slate-300 hover:text-white font-medium py-1">Get Involved</a>
+            <a href="https://ftcscout.org/teams/23684" target="_blank" class="block text-center text-xs bg-brand-card hover:bg-[#151a24] text-white py-3 rounded-xl border border-brand-border transition-all">
+                View Scout Report
+            </a>
+        </div>
+    </header>
+
+    <!-- Editorial Hero Section -->
+    <section id="home" class="relative min-h-[75vh] flex items-center justify-center px-6 py-16 bg-gradient-to-b from-[#121622]/30 to-[#090b10]">
+        <div class="relative max-w-4xl mx-auto text-center space-y-8 z-10">
+            <!-- Calgary Location Badge -->
+            <div class="inline-flex items-center gap-2 px-3.5 py-1 bg-[#1f2533]/40 border border-brand-border rounded-full text-slate-400 text-xs">
+                <span class="w-2 h-2 rounded-full bg-brand-accent animate-pulse"></span> Calgary, Alberta
+            </div>
+
+            <!-- Crisp, High-Contrast Typography -->
+            <h1 class="text-4xl sm:text-6xl md:text-7xl font-bold tracking-tight text-white leading-tight">
+                Building robots.<br>
+                <span class="text-slate-400">Supporting young minds.</span>
+            </h1>
+
+            <p class="text-base sm:text-lg text-slate-400 max-w-2xl mx-auto font-light leading-relaxed">
+                We are a cooperative community-based robotics cohort supported by <strong class="text-white font-medium">ATAA Robotics</strong>. Our focus is centered on technical learning, software architectures, and peer-to-peer mentorship across Calgary.
+            </p>
+
+            <!-- Human, low-pressure CTA buttons -->
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-md mx-auto pt-4">
+                <a href="#events" class="w-full sm:w-auto px-8 py-3.5 bg-white hover:bg-slate-100 text-[#090b10] font-semibold rounded-xl transition-all text-sm text-center">
+                    Get in touch
+                </a>
+                <a href="#about" class="w-full sm:w-auto px-8 py-3.5 bg-brand-card hover:bg-[#151a24] border border-brand-border text-slate-300 hover:text-white font-semibold rounded-xl transition-all text-sm text-center">
+                    Read our story
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Approachable About/Story Section -->
+    <section id="about" class="py-24 border-t border-brand-border/40 bg-brand-card/10">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
+                
+                <!-- Left Hand Overview -->
+                <div class="lg:col-span-5 space-y-6">
+                    <p class="text-xs uppercase text-brand-accent tracking-wider font-semibold">OUR PHILOSOPHY</p>
+                    <h2 class="text-3xl sm:text-4xl font-bold text-white leading-tight">
+                        A student-driven learning workspace.
+                    </h2>
+                    <p class="text-slate-400 leading-relaxed text-sm">
+                        Tech Titans Robotics doesn’t operate like a corporate enterprise. We view the competitive arena as a collaborative sandbox where students learn real-world engineering fundamentals.
+                    </p>
+                    <p class="text-slate-400 leading-relaxed text-sm">
+                        We prioritize sharing what we build. Whether it is hardware schematics, Java classes, or outreach workshops, our goal is to lower the barrier of entry to STEM for all Calgary youth.
+                    </p>
+                </div>
+
+                <!-- Right Hand Focus Points -->
+                <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-8 pt-2">
+                    <div class="space-y-3">
+                        <div class="text-white font-semibold text-lg flex items-center gap-2">
+                            <span class="w-1.5 h-1.5 rounded-full bg-brand-accent"></span> Practical Code
+                        </div>
+                        <p class="text-xs text-slate-400 leading-relaxed">
+                            We write clean, modular Java code using localized coordinates and odometry to help students understand algorithms and practical geometry in physical environments.
+                        </p>
+                    </div>
+
+                    <div class="space-y-3">
+                        <div class="text-white font-semibold text-lg flex items-center gap-2">
+                            <span class="w-1.5 h-1.5 rounded-full bg-brand-accent"></span> Mechanical Assembly
+                        </div>
+                        <p class="text-xs text-slate-400 leading-relaxed">
+                            From basic 3D modeling to physical fabrication, our students design, build, and break systems in order to understand mechanical limits, tolerance, and materials.
+                        </p>
+                    </div>
+
+                    <div class="space-y-3">
+                        <div class="text-white font-semibold text-lg flex items-center gap-2">
+                            <span class="w-1.5 h-1.5 rounded-full bg-brand-accent"></span> Community Sharing
+                        </div>
+                        <p class="text-xs text-slate-400 leading-relaxed">
+                            Operating under ATAA Robotics, we help co-host regional workshops, demonstrating robot mechanics and coding concepts to schools, libraries, and youth clubs.
+                        </p>
+                    </div>
+
+                    <div class="space-y-3">
+                        <div class="text-white font-semibold text-lg flex items-center gap-2">
+                            <span class="w-1.5 h-1.5 rounded-full bg-brand-accent"></span> Honest Growth
+                        </div>
+                        <p class="text-xs text-slate-400 leading-relaxed">
+                            Competition results are exciting, but secondary. We value persistence, collaborative documentation, and establishing an inclusive space for all.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Numbers & Accomplishments Section -->
+    <section id="stats" class="py-24 bg-[#090b10] border-t border-brand-border/40">
+        <div class="max-w-6xl mx-auto px-6 space-y-12">
+            
+            <div class="text-center md:text-left max-w-2xl space-y-3">
+                <p class="text-xs uppercase text-brand-accent tracking-wider font-semibold">STATISTICAL DATA</p>
+                <h2 class="text-3xl sm:text-4xl font-bold text-white">The Metrics</h2>
+                <p class="text-slate-400 text-sm">
+                    A glance at our software and tournament parameters gathered over our competitive cycles.
+                </p>
+            </div>
+
+            <!-- Balanced, approachable stats cards utilizing monospace font accents -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <div class="p-6 bg-brand-card border border-brand-border rounded-xl space-y-2">
+                    <p class="text-xs text-slate-500 uppercase tracking-wider">ROOKIE YEAR</p>
+                    <p class="text-3xl font-bold text-white">2023</p>
+                    <p class="text-xs text-slate-400">Launched in the Southern Alberta competitive region.</p>
+                </div>
+
+                <div class="p-6 bg-brand-card border border-brand-border rounded-xl space-y-2">
+                    <p class="text-xs text-brand-accent uppercase tracking-wider">AUTO ACCURACY</p>
+                    <p class="text-3xl font-bold text-white">Top 17%</p>
+                    <p class="text-xs text-slate-400">Global percentile rank achieved in autonomous navigation.</p>
+                </div>
+
+                <div class="p-6 bg-brand-card border border-brand-border rounded-xl space-y-2">
+                    <p class="text-xs text-slate-500 uppercase tracking-wider">MAX MATCH OUTCOME</p>
+                    <p class="text-3xl font-bold text-white">212 <span class="text-xs text-slate-500">PTS</span></p>
+                    <p class="text-xs text-slate-400">Our highest joint score achieved during alliance tournaments.</p>
+                </div>
+
+                <div class="p-6 bg-brand-card border border-brand-border rounded-xl space-y-2">
+                    <p class="text-xs text-slate-500 uppercase tracking-wider">JUDGED HONOUR</p>
+                    <p class="text-3xl font-bold text-white">Inspire <span class="text-sm text-slate-400">2nd</span></p>
+                    <p class="text-xs text-slate-400">Awarded for robust engineering folders and local outreach.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Interest & Contact Section -->
+    <section id="events" class="py-24 bg-brand-card/20 border-t border-brand-border/40">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
+                
+                <!-- Left Column Details -->
+                <div class="lg:col-span-5 space-y-6">
+                    <p class="text-xs uppercase text-brand-accent tracking-wider font-semibold">GET INVOLVED</p>
+                    <h2 class="text-3xl sm:text-4xl font-bold text-white leading-tight">
+                        Interested in Events?
+                    </h2>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Are you an educator looking to coordinate a robot demonstration? A student wishing to learn hands-on coding and mechanics? Or a Calgary community partner aiming to support local youth development?
+                    </p>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Please fill out our <strong>Robotics Events Interest Form</strong>. We monitor responses weekly to schedule upcoming demonstrations and coordinate regional activities.
+                    </p>
+                    
+                    <div class="p-5 bg-[#12151d]/60 border border-brand-border rounded-xl space-y-2">
+                        <div class="flex items-center gap-2 text-white font-semibold text-sm">
+                            <i data-lucide="info" class="w-4 h-4 text-brand-accent"></i>
+                            <span>General Inquiries</span>
+                        </div>
+                        <p class="text-xs text-slate-400 leading-relaxed">
+                            No experience or technical background is required to get involved. We strive to maintain an inclusive space for all interested Calgary students.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Right Column Form Wrapper -->
+                <div class="lg:col-span-7 bg-[#090b10] border border-brand-border rounded-2xl overflow-hidden p-1.5 shadow-sm">
+                    <div class="w-full overflow-y-auto max-h-[580px] rounded-xl bg-white">
+                        <iframe 
+                            src="https://docs.google.com/forms/d/e/1FAIpQLSeY0fmpRl64bGt9xqm_v7ZUuByZhFW9Yxfk9b9FbThCxxDJug/viewform?embedded=true" 
+                            width="100%" 
+                            height="1268" 
+                            frameborder="0" 
+                            marginheight="0" 
+                            marginwidth="0"
+                            class="bg-white">
+                            Loading…
+                        </iframe>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Minimal Footer -->
+    <footer class="border-t border-brand-border/40 bg-[#090b10] py-12 px-6">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="flex items-center gap-3">
+                <div class="p-2 bg-brand-card border border-brand-border rounded-xl">
+                    <i data-lucide="shield" class="w-5 h-5 text-brand-accent"></i>
+                </div>
+                <div>
+                    <span class="text-sm font-bold text-white">TECH TITANS #23684</span>
+                    <p class="text-[10px] text-slate-500">Established 2023 · Calgary, Alberta</p>
+                </div>
+            </div>
+
+            <div class="flex items-center gap-6 text-xs text-slate-400">
+                <a href="#about" class="hover:text-white transition-colors">Our Story</a>
+                <a href="#stats" class="hover:text-white transition-colors">The Metrics</a>
+                <a href="#events" class="hover:text-white transition-colors">Get Involved</a>
+                <a href="https://ftcscout.org/teams/23684" target="_blank" class="hover:text-white transition-colors flex items-center gap-1">
+                    Scout Profile <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+                </a>
+            </div>
+        </div>
+        <div class="max-w-6xl mx-auto mt-8 pt-8 border-t border-brand-border/20 text-center md:text-left flex flex-col md:flex-row justify-between items-center gap-4 text-[11px] text-slate-600">
+            <p>© 2026 Tech Titans Robotics. Part of the ATAA Robotics Alliance.</p>
+            <p>FIRST® and Gracious Professionalism® are registered trademarks of FIRST.</p>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu Handler -->
+    <script>
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            const icon = document.getElementById('menuIcon');
+            if (menu.classList.contains('hidden')) {
+                menu.classList.remove('hidden');
+                icon.setAttribute('data-lucide', 'x');
+            } else {
+                menu.classList.add('hidden');
+                icon.setAttribute('data-lucide', 'menu');
+            }
+            lucide.createIcons();
+        }
+
+        window.onload = function() {
+            lucide.createIcons();
+        }
+    </script>
 </body>
-
 </html>
