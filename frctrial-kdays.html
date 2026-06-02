@@ -1,0 +1,654 @@
+---
+layout: default
+title: FRC KDays 2026 — FTC Student Recruitment
+---
+
+<link
+  href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@400;500;600&display=swap"
+  rel="stylesheet">
+<style>
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  :root {
+    --navy: #1A1A1A;
+    --blue: #2D2D2D;
+    --sky: #8A8A8A;
+    --orange: #CC0000;
+    --cream: #F2F2F2;
+    --white: #FFFFFF;
+    --light: #D4D4D4;
+  }
+
+  .page {
+    width: 210mm;
+    min-height: 297mm;
+    background: var(--white);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    overflow: hidden;
+  }
+
+
+  .logo-band {
+    background: var(--white);
+    padding: 16px 32px 10px;
+    border-bottom: 3px solid var(--navy);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .logo-band-img {
+    width: 320px;
+    height: auto;
+    display: block;
+  }
+
+  /* ── HEADER ── */
+  .header {
+    background: var(--navy);
+    padding: 28px 32px 0;
+    position: relative;
+    overflow: hidden;
+    height: 225px;
+  }
+
+  .header::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    height: 32px;
+    background: var(--white);
+    clip-path: ellipse(55% 100% at 50% 100%);
+  }
+
+  .header-grid {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: start;
+    gap: 16px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .first-badge {
+    background: var(--orange);
+    color: var(--white);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 900;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 5px 12px;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+  .headline {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 900;
+    font-size: 58px;
+    line-height: 0.92;
+    color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: -1px;
+  }
+
+  .headline em {
+    color: var(--orange);
+    font-style: normal;
+    display: block;
+  }
+
+  .subheadline {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--blue);
+    margin-top: 8px;
+    letter-spacing: 0.5px;
+    padding: 0 32px 0;
+  }
+
+  .event-pill {
+    background: var(--orange);
+    color: var(--white);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 800;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 8px 16px;
+    text-align: center;
+    line-height: 1.3;
+    min-width: 120px;
+  }
+
+  .event-pill .date {
+    font-size: 22px;
+    display: block;
+    line-height: 1.1;
+  }
+
+  .gear-art {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 32px;
+  }
+
+  /* ── BODY ── */
+  .body {
+    padding: 24px 32px 20px;
+  }
+
+  .intro-block {
+    background: var(--navy);
+    color: var(--white);
+    padding: 16px 20px;
+    margin-bottom: 22px;
+    border-left: 5px solid var(--orange);
+  }
+
+  .intro-block p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--light);
+  }
+
+  .intro-block strong {
+    color: var(--white);
+    font-weight: 600;
+  }
+
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 22px;
+  }
+
+  .section-label {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 800;
+    font-size: 11px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: var(--orange);
+    margin-bottom: 8px;
+  }
+
+  .section-heading {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+    color: var(--navy);
+    line-height: 1.1;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+
+  .role-list {
+    list-style: none;
+  }
+
+  .role-list li {
+    font-size: 13px;
+    color: #2C2C2C;
+    padding: 5px 0 5px 16px;
+    border-bottom: 0.5px solid #E0E8F0;
+    position: relative;
+    line-height: 1.4;
+  }
+
+  .role-list li::before {
+    content: '▶';
+    position: absolute;
+    left: 0;
+    color: var(--sky);
+    font-size: 9px;
+    top: 7px;
+  }
+
+  .role-list li strong {
+    display: block;
+    font-weight: 600;
+    color: var(--navy);
+    font-size: 13px;
+  }
+
+  .checklist {
+    list-style: none;
+  }
+
+  .checklist li {
+    font-size: 13px;
+    color: #2C2C2C;
+    padding: 5px 0 5px 20px;
+    border-bottom: 0.5px solid #E0E8F0;
+    position: relative;
+    line-height: 1.4;
+  }
+
+  .checklist li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--sky);
+    font-weight: 700;
+    font-size: 12px;
+    top: 5px;
+  }
+
+  /* Stats row */
+  .stats-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 22px;
+  }
+
+  .stat-card {
+    background: var(--navy);
+    color: var(--white);
+    padding: 12px 10px;
+    text-align: center;
+  }
+
+  .stat-card.accent {
+    background: var(--orange);
+  }
+
+  .stat-card .num {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 1;
+    display: block;
+    color: var(--white);
+  }
+
+  .stat-card .lbl {
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--light);
+    margin-top: 3px;
+    display: block;
+    line-height: 1.3;
+  }
+
+  .stat-card.accent .lbl {
+    color: rgba(255, 255, 255, 0.85);
+  }
+
+  /* Timeline */
+  .timeline {
+    margin-bottom: 22px;
+  }
+
+  .timeline-items {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0;
+    position: relative;
+    margin-top: 10px;
+  }
+
+  .timeline-items::before {
+    content: '';
+    position: absolute;
+    top: 14px;
+    left: 20px;
+    right: 20px;
+    height: 2px;
+    background: var(--light);
+  }
+
+  .t-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  .t-dot {
+    width: 28px;
+    height: 28px;
+    background: var(--navy);
+    border: 3px solid var(--white);
+    outline: 2px solid var(--sky);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 900;
+    font-size: 11px;
+    color: var(--white);
+    margin-bottom: 6px;
+    flex-shrink: 0;
+  }
+
+  .t-dot.hot {
+    background: var(--orange);
+    outline-color: var(--orange);
+  }
+
+  .t-label {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    color: var(--navy);
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    line-height: 1.2;
+    margin-bottom: 2px;
+  }
+
+  .t-date {
+    font-size: 10px;
+    color: #7A7A7A;
+    line-height: 1.2;
+  }
+
+  /* CTA */
+  .cta-block {
+    background: linear-gradient(135deg, #1A1A1A 0%, #2D2D2D 100%);
+    padding: 18px 24px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 16px;
+  }
+
+  .cta-text .cta-heading {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .cta-text .cta-sub {
+    font-size: 12.5px;
+    color: var(--light);
+    margin-top: 3px;
+    line-height: 1.4;
+  }
+
+  .cta-button {
+    background: var(--orange);
+    color: var(--white);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 12px 22px;
+    text-decoration: none;
+    white-space: nowrap;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .note-strip {
+    background: var(--cream);
+    border-left: 4px solid var(--sky);
+    padding: 10px 16px;
+    font-size: 11.5px;
+    color: #4A4A4A;
+    line-height: 1.5;
+    margin-bottom: 16px;
+  }
+
+  .note-strip strong {
+    color: var(--navy);
+  }
+
+  /* ── FOOTER ── */
+  .footer {
+    background: var(--navy);
+    padding: 12px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .footer-brand {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    color: var(--white);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+
+  .footer-brand span {
+    color: var(--orange);
+  }
+
+  .footer-tagline {
+    font-size: 11px;
+    color: var(--light);
+    letter-spacing: 0.5px;
+  }
+
+  .footer-logo {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    color: var(--light);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: right;
+  }
+
+  /* Robot SVG art */
+  .robot-art {
+    opacity: 0.12;
+    position: absolute;
+    right: -10px;
+    top: 10px;
+  }
+
+  /* Diagonal accent */
+  .diag-accent {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 140px;
+    height: 100%;
+    background: var(--blue);
+    clip-path: polygon(40% 0, 100% 0, 100% 100%, 0% 100%);
+    opacity: 0.35;
+  }
+</style>
+<main style="display: flex; justify-content: center">
+  <div class="page">
+
+    <!-- HEADER -->
+    <div class="header">
+      <div class="diag-accent"></div>
+      <svg class="robot-art" width="180" height="200" viewBox="0 0 180 200" aria-hidden="true">
+        <!-- stylized robot head silhouette -->
+        <rect x="40" y="30" width="100" height="80" rx="12" fill="white" />
+        <rect x="55" y="50" width="28" height="18" rx="4" fill="white" />
+        <rect x="97" y="50" width="28" height="18" rx="4" fill="white" />
+        <rect x="70" y="80" width="40" height="8" rx="4" fill="white" />
+        <rect x="20" y="45" width="18" height="30" rx="6" fill="white" />
+        <rect x="142" y="45" width="18" height="30" rx="6" fill="white" />
+        <rect x="50" y="110" width="80" height="60" rx="8" fill="white" />
+        <rect x="30" y="120" width="18" height="40" rx="6" fill="white" />
+        <rect x="132" y="120" width="18" height="40" rx="6" fill="white" />
+        <rect x="55" y="170" width="25" height="30" rx="5" fill="white" />
+        <rect x="100" y="170" width="25" height="30" rx="5" fill="white" />
+        <rect x="75" y="10" width="30" height="22" rx="4" fill="white" />
+      </svg>
+
+      <div class="header-grid">
+        <div>
+          <div class="first-badge">FIRST Robotics Competition</div>
+          <div class="headline">
+            FTC Students<br>
+            <em>Wanted.</em>
+          </div>
+
+        </div>
+        <div class="gear-art">
+          <div class="event-pill">
+            <span class="date">Jul 17–19</span>
+            2026<br>Edmonton, AB
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="subheadline">Join an FRC Team — Build a Robot — Compete at KDays</div>
+
+    <!-- LOGO BAND -->
+    <div class="logo-band">
+      <img src="/logos/ataa_wide.png" alt="Alberta Tech Alliance Association" class="logo-band-img">
+    </div>
+
+    <!-- BODY -->
+    <div class="body">
+
+      <!-- Intro -->
+      <div class="intro-block">
+        <p>Are you an <strong>FTC student</strong> ready to take your robotics skills to the next level? We're
+          recruiting <strong>10 talented students</strong> to join our FRC team for a focused build cycle and
+          compete at the <strong>FIRST Alberta KDays event</strong> in Edmonton. This is your chance to
+          experience large-scale competitive robotics — a rare chance to compete at FRC scale while you&#39;re
+          still in the FTC world.</p>
+      </div>
+
+      <!-- Stats -->
+      <div class="stats-row">
+        <div class="stat-card">
+          <span class="num">10</span>
+          <span class="lbl">Spots Available</span>
+        </div>
+        <div class="stat-card accent">
+          <span class="num">$75</span>
+          <span class="lbl">Participation Fee</span>
+        </div>
+        <div class="stat-card">
+          <span class="num">3</span>
+          <span class="lbl">Days of Competition</span>
+        </div>
+        <div class="stat-card">
+          <span class="num">$750</span>
+          <span class="lbl">Build Materials Budget</span>
+        </div>
+      </div>
+
+      <!-- Two column: roles + eligibility -->
+      <div class="two-col">
+        <div>
+          <div class="section-label">What You'll Do</div>
+          <div class="section-heading">Pick Your Role</div>
+          <ul class="role-list">
+            <li>
+              <strong>Mechanical / Build</strong>
+              Assemble and tune robot mechanisms
+            </li>
+            <li>
+              <strong>Controls / Electrical</strong>
+              Wiring, sensors &amp; system checks
+            </li>
+            <li>
+              <strong>Software / Strategy</strong>
+              Autonomous code, scouting &amp; driver coaching
+            </li>
+          </ul>
+        </div>
+        <div>
+          <div class="section-label">Do You Qualify?</div>
+          <div class="section-heading">Eligibility</div>
+          <ul class="checklist">
+            <li>Active FTC team member (2024–25 or 2025–26 season)</li>
+            <li>Grade 9 or higher as of Sept 2026</li>
+            <li>Available July 17–19 and all training sessions</li>
+            <li>Parent/guardian consent &amp; mentor endorsement</li>
+            <li>Short 200-word application submitted</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Timeline -->
+      <div class="timeline">
+        <div class="section-label">Key Dates</div>
+        <div class="timeline-items">
+          <div class="t-item">
+            <div class="t-dot">1</div>
+            <div class="t-label">Applications Open</div>
+            <div class="t-date">Jun 1, 2026</div>
+          </div>
+          <div class="t-item">
+            <div class="t-dot">2</div>
+            <div class="t-label">Deadline</div>
+            <div class="t-date">Jun 14, 2026</div>
+          </div>
+          <div class="t-item">
+            <div class="t-dot">3</div>
+            <div class="t-label">Selected &amp; Notified</div>
+            <div class="t-date">Jun 15, 2026</div>
+          </div>
+          <div class="t-item">
+            <div class="t-dot">4</div>
+            <div class="t-label">Training Sessions</div>
+            <div class="t-date">Jun 16–Jul 16</div>
+          </div>
+          <div class="t-item">
+            <div class="t-dot hot">5</div>
+            <div class="t-label">Compete at KDays!</div>
+            <div class="t-date">Jul 17–19, 2026</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Note strip -->
+      <div class="note-strip">
+        <strong>Travel &amp; accommodation note:</strong> Students and their families are responsible for
+        arranging and funding their own travel to and from Edmonton, accommodation during the event, and
+        chaperone supervision. The $75 participation fee and $750 materials budget are the only team-covered
+        costs.
+      </div>
+
+      <!-- CTA -->
+      <div class="cta-block">
+        <div class="cta-text">
+          <div class="cta-heading">Ready to build something incredible?</div>
+          <div class="cta-sub">Applications close June 14 — only 10 spots. Contact your FRC team lead or ask
+            your FTC mentor to nominate you.</div>
+        </div>
+        <a class="cta-button" href="https://forms.gle/dqYyoH1n4YcXqv8q6">Apply Now ▶</a>
+      </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+      <div>
+        <div class="footer-brand">FTC <span>→</span> FRC Bridge Program</div>
+        <div class="footer-tagline">Calgary, Alberta · 2026 Season</div>
+      </div>
+      <div class="footer-logo" style="display:flex;align-items:center;gap:10px;">
+        <img src="/logos/ataa_wide.png" style="width:160px;height:auto;filter:brightness(0) invert(1);" />
+        <div>FIRST Alberta<br>KDays 2026<br>Edmonton, AB</div>
+      </div>
+    </div>
+  </div>
+</main>
