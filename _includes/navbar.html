@@ -1,56 +1,61 @@
-<header>
-  <div class="header-container">
-    {% if page.logo == "forge" %}
-    <img src="robot pics/forge logo.png" alt="ATAA Logo" class="logo">
-    {% else %}
-    <img src="logos/Ataalogo.png" alt="ATAA Logo" class="logo">
-    {% endif %}
-    <div class="banner">{{ page.title }}</div>
-  </div>
-</header>
+<div class="header">
+  <header>
+    <div class="header-container">
+      {% if page.logo == "forge" %}
+      <img src="robot pics/forge logo.png" alt="ATAA Logo" class="logo">
+      {% else %}
+      <img src="logos/Ataalogo.png" alt="ATAA Logo" class="logo">
+      {% endif %}
+      <div class="banner">{{ page.title }}</div>
 
-<nav class="teams-bar">
-  <div class="nav-links">
-    <div class="dropdown">
-      <a href="index" class="dropbtn">Home</a>
+      <input type="checkbox" id="check">
+      <label for="check" class="hamburger">&#9776;</label>
     </div>
+  </header>
 
-    <div class="dropdown">
-      <a href="/#frc">FRC - FORGE 4421</a>
-      <div class="dropdown-content">
-        <a href="forge">About</a>
-        <a href="robots">Robots</a>
-        <a href="awards">Awards</a>
-        <a href="legacy">Legacy</a>
-        <a href="media">Media</a>
-        <a href="Documents">Documents</a>
-        <a href="recruitment">Recruitment</a>
+  <nav class="teams-bar">
+    <div class="nav-links">
+      <div class="dropdown">
+        <a href="index" class="dropbtn">Home</a>
       </div>
-    </div>
 
-    <div class="dropdown">
-      <a href="/#ftc">FTC Teams</a>
-      <div class="dropdown-content">
-        <a href="hyperdroid">HyperDroid #10015</a>
-        <a href="cai">Crazy AI #16596</a>
-        <a href="mechamonkeys">Mecha Monkeys #23468</a>
-        <a href="techtitans">Tech Titans #23684</a>
+      <div class="dropdown">
+        <a href="/#frc">FRC - FORGE 4421</a>
+        <div class="dropdown-content">
+          <a href="forge">About</a>
+          <a href="robots">Robots</a>
+          <a href="awards">Awards</a>
+          <a href="legacy">Legacy</a>
+          <a href="media">Media</a>
+          <a href="Documents">Documents</a>
+          <a href="recruitment">Recruitment</a>
+        </div>
       </div>
-    </div>
 
-    <div class="dropdown">
-      <a href=/#fll>FLL Teams</a>
-      <div class="dropdown-content">
-        <a href="fll">The Fire Breathing Rubber Duckies #13487</a>
-        <a href="fll">The Bobbots #58560</a>
-        <a href="https://sites.google.com/ataarobotics.ca/thecreators/home">The Creators #62273</a>
-        <a href="fll">The Pancake Overlords #71196</a>
+      <div class="dropdown">
+        <a href="/#ftc">FTC Teams</a>
+        <div class="dropdown-content">
+          <a href="hyperdroid">HyperDroid #10015</a>
+          <a href="cai">Crazy AI #16596</a>
+          <a href="mechamonkeys">Mecha Monkeys #23468</a>
+          <a href="techtitans">Tech Titans #23684</a>
+        </div>
       </div>
+
+      <div class="dropdown">
+        <a href=/#fll>FLL Teams</a>
+        <div class="dropdown-content">
+          <a href="fll">The Fire Breathing Rubber Duckies #13487</a>
+          <a href="fll">The Bobbots #58560</a>
+          <a href="https://sites.google.com/ataarobotics.ca/thecreators/home">The Creators #62273</a>
+          <a href="fll">The Pancake Overlords #71196</a>
+        </div>
+      </div>
+      <a href="event">Events</a>
+      <a href="impact">Impact</a>
+      <a href="sponsors">Sponsors</a>
+      <a href="contact">Contact</a>
+      <a href="joinus">Join Us</a>
     </div>
-    <a href="event">Events</a>
-    <a href="impact">Impact</a>
-    <a href="sponsors">Sponsors</a>
-    <a href="contact">Contact</a>
-    <a href="joinus">Join Us</a>
-  </div>
-</nav>
+  </nav>
+</div>
